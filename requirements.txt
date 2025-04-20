@@ -1,0 +1,5 @@
+aiohttp             # async API calls (good for performance in extract phase)
+fastapi             # if you add a lightweight demo API
+uvicorn             # FastAPI dev server
+pytest              # for unit testing
+docker              # if managing Docker from Python scripts (rarely needed)
