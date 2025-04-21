@@ -52,4 +52,5 @@ transformer = NewsTransformer(
 )
 df = transformer.transform()
 print(df.head())
+print(df.dtypes)
 print(df.columns.tolist())

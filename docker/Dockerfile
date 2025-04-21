@@ -13,7 +13,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the entire project (including main.py) into the container
 COPY ../ /app
 
-# Make port 80 available to the world outside this container
+# Make port 8000 available to the world outside this container
 EXPOSE 8000
 
 # Run main.py when the container launches
