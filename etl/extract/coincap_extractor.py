@@ -11,19 +11,22 @@ logger = setup_logger(__name__)
 class CoinCapExtractor(Extractor):
     BASE_URL = "https://rest.coincap.io/v3/assets"
 
-    def __init__(self, state_file: str = 'etl/extract/state/coincap.state.txt'):
-        super().__init__(state_file)
+    def __init__(self, query: str):
+        super().__init__(f'etl/extract/state/market/{query}/coincap.state.txt', query)
 
-    def fetch(self, since: datetime, until: datetime, query: str):
+    def fetch(self, since: datetime, until: datetime):
+        if since < self.last_timestamp:
+            since = self.last_timestamp
+
         start = int(since.timestamp() * 1000)
         end = int(until.timestamp() * 1000)
 
-        logger.info(f"Fetching {query} data from {since.isoformat()} to {until.isoformat()}")
+        logger.info(f"Fetching {self.query} data from {since.isoformat()} to {until.isoformat()}")
 
         
         try:
             resp = requests.get(
-                f"{self.BASE_URL}/{query}/history",
+                f"{self.BASE_URL}/{self.query}/history",
                 params={"interval": "h6", "start": start, "end": end},
                 headers={"Authorization": f"Bearer {COINCAP_API_KEY}"}
             )
@@ -36,7 +39,7 @@ class CoinCapExtractor(Extractor):
             # Save raw JSON
             since_str = since.date().isoformat()
             until_str = until.date().isoformat()
-            raw_dir = f"data/raw/market/{query}"
+            raw_dir = f"data/raw/market/{self.query}"
             os.makedirs(raw_dir, exist_ok=True)
             raw_path = os.path.join(raw_dir, f"market_{since_str}_to_{until_str}.json")
             with open(raw_path, "w") as f:
@@ -58,6 +61,6 @@ class CoinCapExtractor(Extractor):
 from datetime import datetime, timedelta, timezone
 
 until = datetime.now(timezone.utc)
-since = until - timedelta(days=10)
+since = until - timedelta(days=12)
 
-articles = CoinCapExtractor().fetch(since, until, 'bitcoin')
+articles = CoinCapExtractor('bitcoin').fetch(since, until)

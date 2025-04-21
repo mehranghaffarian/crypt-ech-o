@@ -11,13 +11,16 @@ logger = setup_logger(__name__)
 class NewsAPIExtractor(Extractor):
     BASE_URL = "https://newsapi.org/v2/everything"
 
-    def __init__(self, state_file: str = 'etl/extract/state/news_api.state.txt'):
-        super().__init__(state_file)
+    def __init__(self, query: str):
+        super().__init__(f'etl/extract/state/news/{query}/news_api.state.txt', query)
 
-    def fetch(self, since: datetime, until: datetime, query: str):
+    def fetch(self, since: datetime, until: datetime):
+        if since < self.last_timestamp:
+            since = self.last_timestamp
+
         params = {
             'apiKey': NEWS_API_KEY,
-            'q': query,
+            'q': self.query,
             'from': since.isoformat(),
             'to': until.isoformat(),
             'pageSize': 50,
@@ -26,7 +29,7 @@ class NewsAPIExtractor(Extractor):
             'language': 'en',
             'sortBy': 'publishedAt'
         }
-        logger.info(f"Fetching {query} data from {since.isoformat()} to {until.isoformat()}")
+        logger.info(f"Fetching {self.query} data from {since.isoformat()} to {until.isoformat()}")
 
         try:
             all_articles = []
@@ -51,7 +54,7 @@ class NewsAPIExtractor(Extractor):
             # Save raw output
             since_str = since.date().isoformat()
             until_str = until.date().isoformat()
-            raw_dir = f'data/raw/news/{query}'
+            raw_dir = f'data/raw/news/{self.query}'
             os.makedirs(raw_dir, exist_ok=True)
             raw_path = os.path.join(raw_dir, f"news__{since_str}_to_{until_str}.json")
             with open(raw_path, 'w') as f:
@@ -71,6 +74,6 @@ class NewsAPIExtractor(Extractor):
 from datetime import datetime, timedelta, timezone
 
 until = datetime.now(timezone.utc)
-since = until - timedelta(days=10)
+since = until - timedelta(days=12)
 
-articles = NewsAPIExtractor().fetch(since, until, 'crypto')
+articles = NewsAPIExtractor('Apple').fetch(since, until)
