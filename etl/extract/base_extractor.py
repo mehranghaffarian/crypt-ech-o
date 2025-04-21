@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import os
 import logging
 
@@ -15,7 +15,7 @@ class Extractor(ABC):
         self.last_timestamp = self.load_state()
 
     @abstractmethod
-    def fetch(self, since: datetime, until: datetime):
+    def fetch(self, since: datetime, until: datetime, query: str):
         '''Fetch data between since and until.'''
         pass
 
@@ -26,8 +26,8 @@ class Extractor(ABC):
                     ts = f.read().strip()
                     return datetime.fromisoformat(ts)
         except Exception as e:
-            logger.error(f"Failed to load state: {e}")
-        return None
+            logger.error(f"Failed to load state: {e}, returning 10 days ago")
+        return datetime.now(timezone.utc) - timedelta(days=10)
 
     def save_state(self, timestamp: datetime):
         try:

@@ -3,24 +3,61 @@ from datetime import datetime
 import os
 import json
 from etl.extract.base_extractor import Extractor
-from utils.config import COINCAP_API_KEY  # if needed
+from utils.config import COINCAP_API_KEY
+from utils.logging import setup_logger
+
+logger = setup_logger(__name__)
 
 class CoinCapExtractor(Extractor):
-    BASE_URL = "https://api.coincap.io/v2/assets"
+    BASE_URL = "https://rest.coincap.io/v3/assets"
 
-    def __init__(self, state_file: str = 'state.coincap.txt', coin: str = 'bitcoin'):
+    def __init__(self, state_file: str = 'etl/extract/state/coincap.state.txt'):
         super().__init__(state_file)
-        self.coin = coin
 
-    def fetch(self, since: datetime, until: datetime):
-        # Example: fetch OHLC data if endpoint available
-        resp = requests.get(f"{self.BASE_URL}/{self.coin}/history", params={'interval': 'm1'})
-        data = resp.json().get('data', [])
-        # Save raw
-        date_str = until.date().isoformat()
-        os.makedirs(f'data/raw/market/{self.coin}', exist_ok=True)
-        with open(f'data/raw/market/{self.coin}/market_{date_str}.json', 'w') as f:
-            json.dump(data, f, indent=2)
-        # State management placeholder
-        self.save_state(until)
-        return data
+    def fetch(self, since: datetime, until: datetime, query: str):
+        start = int(since.timestamp() * 1000)
+        end = int(until.timestamp() * 1000)
+
+        logger.info(f"Fetching {query} data from {since.isoformat()} to {until.isoformat()}")
+
+        
+        try:
+            resp = requests.get(
+                f"{self.BASE_URL}/{query}/history",
+                params={"interval": "h6", "start": start, "end": end},
+                headers={"Authorization": f"Bearer {COINCAP_API_KEY}"}
+            )
+            logger.info(f"CoinCap returned status {resp.status_code}")
+            resp.raise_for_status()
+
+            data = resp.json().get("data", [])
+            logger.info(f"Received {len(data)} data points")
+
+            # Save raw JSON
+            since_str = since.date().isoformat()
+            until_str = until.date().isoformat()
+            raw_dir = f"data/raw/market/{query}"
+            os.makedirs(raw_dir, exist_ok=True)
+            raw_path = os.path.join(raw_dir, f"market_{since_str}_to_{until_str}.json")
+            with open(raw_path, "w") as f:
+                json.dump(data, f, indent=2)
+            logger.info(f"Wrote raw data to {raw_path}")
+
+            # Update state
+            self.save_state(until)
+            logger.debug(f"State file updated to {until.isoformat()}")
+
+            return data
+
+        except requests.RequestException as e:
+            logger.error(f"Error fetching from CoinCap: {e}")
+            return []
+
+
+
+from datetime import datetime, timedelta, timezone
+
+until = datetime.now(timezone.utc)
+since = until - timedelta(days=10)
+
+articles = CoinCapExtractor().fetch(since, until, 'bitcoin')
