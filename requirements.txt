@@ -4,4 +4,6 @@ uvicorn             # FastAPI dev server
 pytest              # for unit testing
 docker              # if managing Docker from Python scripts (rarely needed)
 requests
+dotenv
 sqlalchemy
+vaderSentiment

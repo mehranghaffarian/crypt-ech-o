@@ -31,6 +31,7 @@ class NewsArticle(Base):
     url_to_image = Column(Text)
     published_at = Column(DateTime(timezone=True), nullable=False)
     content = Column(Text)
+    sentiment_score= Column(Numeric(9,6))   
     __table_args__ = (
         Index('idx_news_published', 'published_at'),
     )

@@ -11,6 +11,7 @@ from etl.transform.news_transformer import NewsTransformer
 from etl.transform.market_transformer import MarketTransformer
 from etl.load.news_loader import NewsLoader
 from etl.load.market_loader import MarketLoader
+from etl.enrich.sentiment_enricher import SentimentEnricher
 
 logger = setup_logger(__name__)
 NEWS_QUERY = "crypto regulation"
@@ -26,6 +27,7 @@ def init_db():
 
 def transform_and_load_news():
     news_loader = NewsLoader()
+    enricher    = SentimentEnricher()
     base = Path("data/raw/news")
     for query_dir in base.iterdir():
         if not query_dir.is_dir():
@@ -33,6 +35,7 @@ def transform_and_load_news():
         for raw_file in query_dir.glob("*.json"):
             logger.info(f"Transforming news file: {raw_file}")
             df = NewsTransformer(str(raw_file)).transform()
+            df = enricher.enrich(df)
             count = news_loader.load(df)
             logger.info(f"Inserted {count} rows from {raw_file.name}")
 

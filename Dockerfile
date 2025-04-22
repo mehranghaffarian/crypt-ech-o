@@ -5,13 +5,13 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the requirements.txt first to install dependencies
-COPY ../requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 
 # Install any needed dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the entire project (including main.py) into the container
-COPY ../ /app
+COPY ./ /app
 
 # Make port 8000 available to the world outside this container
 EXPOSE 8000
