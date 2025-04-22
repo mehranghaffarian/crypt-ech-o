@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from sqlalchemy import create_engine
 from db.models import Base                  # your SQLAlchemy models
 from utils.config import DB_URL
+from pathlib import Path
 from utils.logging import setup_logger
 from etl.extract.news_api_extractor import NewsAPIExtractor
 from etl.extract.coincap_extractor import CoinCapExtractor
@@ -12,6 +13,9 @@ from etl.load.news_loader import NewsLoader
 from etl.load.market_loader import MarketLoader
 
 logger = setup_logger(__name__)
+NEWS_QUERY = "crypto regulation"
+COINS = ["bitcoin","ethereum"]
+
 
 def init_db():
     """Create tables if they don't exist yet."""
@@ -20,39 +24,61 @@ def init_db():
     Base.metadata.create_all(engine)
     logger.info("Database schema ready.")
 
+def transform_and_load_news():
+    news_loader = NewsLoader()
+    base = Path("data/raw/news")
+    for query_dir in base.iterdir():
+        if not query_dir.is_dir():
+            continue
+        for raw_file in query_dir.glob("*.json"):
+            logger.info(f"Transforming news file: {raw_file}")
+            df = NewsTransformer(str(raw_file)).transform()
+            count = news_loader.load(df)
+            logger.info(f"Inserted {count} rows from {raw_file.name}")
+
+def transform_and_load_market():
+    market_loader = MarketLoader()
+    base = Path("data/raw/market")
+    for coin_dir in base.iterdir():
+        if not coin_dir.is_dir():
+            continue
+        for raw_file in coin_dir.glob("*.json"):
+            logger.info(f"Transforming market file: {raw_file}")
+            df = MarketTransformer(str(raw_file)).transform()
+            count = market_loader.load(df)
+            logger.info(f"Inserted {count} rows from {raw_file.name}")
+
 def run_etl():
     """Perform one full ETL cycle."""
     now = datetime.utcnow()
     # — Extract —
     # News
-    news_ex = NewsAPIExtractor(state_file="etl/extract/state/news.state", query="crypto regulation OR ETF")
-    since_n = news_ex.load_state() or (now - timedelta(hours=6))
-    raw_news = news_ex.fetch(since_n, now)
+    news_ex = NewsAPIExtractor(query=NEWS_QUERY)
+    since_n = news_ex.load_state()
+    news_ex.fetch(since_n, now)
 
     # Market (for two coins as example)
-    coins = ["bitcoin", "ethereum"]
     raw_market = {}
-    for coin in coins:
-        m_ex = CoinCapExtractor(state_file=f"etl/extract/state/{coin}.state", coin=coin)
-        since_m = m_ex.load_state() or (now - timedelta(hours=6))
+    for coin in COINS:
+        m_ex = CoinCapExtractor(query=coin)
+        since_m = m_ex.load_state()
         raw_market[coin] = m_ex.fetch(since_m, now)
 
-    # — Transform —
-    # Note: You could also reuse state to drive which files to transform
-    df_news = NewsTransformer("data/raw/news/Apple/news__…json").transform()   # adapt path
-    df_mkt  = MarketTransformer("data/raw/market/bitcoin/…json").transform()
-
-    # — Load —
-    nl = NewsLoader()
-    inserted_news = nl.load(df_news)
-
-    ml = MarketLoader()
-    inserted_mkt  = ml.load(df_mkt)
-
-    logger.info(f"ETL done: {inserted_news} news rows, {inserted_mkt} market rows.")
+    # — Transform and Load —
+    transform_and_load_news()
+    transform_and_load_market()
+    logger.info("All transform & load steps complete.")
 
 if __name__ == "__main__":
     logger.info("Starting Crypt(Ech)o project...")
-    init_db()
-    run_etl()
+    try:
+        logger.info("Initializing DB")
+        init_db()
+        
+        logger.info("Running ETL")
+        run_etl()
+        logger.info("ETL completed successfully.")
+    except Exception as e:
+        logger.exception(f"ETL failed:{e}")
+        exit(1)
 
