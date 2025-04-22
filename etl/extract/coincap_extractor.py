@@ -37,14 +37,15 @@ class CoinCapExtractor(Extractor):
             logger.info(f"Received {len(data)} data points")
 
             # Save raw JSON
-            since_str = since.date().isoformat()
-            until_str = until.date().isoformat()
-            raw_dir = f"data/raw/market/{self.query}"
-            os.makedirs(raw_dir, exist_ok=True)
-            raw_path = os.path.join(raw_dir, f"market_{since_str}_to_{until_str}.json")
-            with open(raw_path, "w") as f:
-                json.dump(data, f, indent=2)
-            logger.info(f"Wrote raw data to {raw_path}")
+            if len(data) > 0:
+                since_str = since.date().isoformat()
+                until_str = until.date().isoformat()
+                raw_dir = f"data/raw/market/{self.query}"
+                os.makedirs(raw_dir, exist_ok=True)
+                raw_path = os.path.join(raw_dir, f"market_{since_str}_to_{until_str}.json")
+                with open(raw_path, "w") as f:
+                    json.dump(data, f, indent=2)
+                logger.info(f"Wrote raw data to {raw_path}")
 
             # Update state
             self.save_state(until)

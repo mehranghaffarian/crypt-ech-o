@@ -1,15 +1,11 @@
 import json
 import pandas as pd
-from datetime import datetime
+from etl.transform.base_transform import Transformer
 from pathlib import Path
 
 class NewsTransformer:
     def __init__(self, raw_path: str):
-        """
-        raw_path: full path to your JSON file,
-          e.g. 'data/raw/news/crypto/news__2025-04-11_to_2025-04-21.json'
-        """
-        self.raw_path = Path(raw_path)
+        super.__init__(raw_path)
 
     def transform(self) -> pd.DataFrame:
         # 1) Load JSON

@@ -52,14 +52,15 @@ class NewsAPIExtractor(Extractor):
                 params['page'] += 1
 
             # Save raw output
-            since_str = since.date().isoformat()
-            until_str = until.date().isoformat()
-            raw_dir = f'data/raw/news/{self.query}'
-            os.makedirs(raw_dir, exist_ok=True)
-            raw_path = os.path.join(raw_dir, f"news__{since_str}_to_{until_str}.json")
-            with open(raw_path, 'w') as f:
-                json.dump(all_articles, f, indent=2)
-            logger.info(f"Wrote raw data to {raw_path}")
+            if len(all_articles) > 0:
+                since_str = since.date().isoformat()
+                until_str = until.date().isoformat()
+                raw_dir = f'data/raw/news/{self.query}'
+                os.makedirs(raw_dir, exist_ok=True)
+                raw_path = os.path.join(raw_dir, f"news__{since_str}_to_{until_str}.json")
+                with open(raw_path, 'w') as f:
+                    json.dump(all_articles, f, indent=2)
+                logger.info(f"Wrote raw data to {raw_path}")
 
             # Update state
             self.save_state(until)

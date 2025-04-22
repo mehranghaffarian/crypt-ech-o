@@ -1,15 +1,10 @@
 import json
 import pandas as pd
-from datetime import datetime
-from pathlib import Path
+from etl.transform.base_transform import Transformer
 
-class MarketTransformer:
+class MarketTransformer(Transformer):
     def __init__(self, raw_path: str):
-        """
-        raw_path: path to JSON file, e.g.
-          'data/raw/market/bitcoin/market_2025-04-11_to_2025-04-21.json'
-        """
-        self.raw_path = Path(raw_path)
+        super.__init__(raw_path)
 
     def transform(self) -> pd.DataFrame:
         # 1) Load JSON array
