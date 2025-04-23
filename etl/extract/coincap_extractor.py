@@ -59,9 +59,9 @@ class CoinCapExtractor(Extractor):
 
 
 
-from datetime import datetime, timedelta, timezone
+# from datetime import datetime, timedelta, timezone
 
-until = datetime.now(timezone.utc)
-since = until - timedelta(days=12)
+# until = datetime.now(timezone.utc)
+# since = until - timedelta(days=12)
 
-articles = CoinCapExtractor('bitcoin').fetch(since, until)
+# articles = CoinCapExtractor('bitcoin').fetch(since, until)

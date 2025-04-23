@@ -15,9 +15,9 @@ services:
       - pgdata:/var/lib/postgresql/data
   app:
     build: ./         # This will use the Dockerfile in the docker/ folder
-    # context: ./               
-    # dockerfile: docker/Dockerfile
     container_name: python_app
+    depends_on:
+      - db
     ports:
       - "8000:8000"          # Exposing port 8000 for the app (or change as needed)
     volumes:

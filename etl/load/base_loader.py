@@ -11,7 +11,7 @@ class Loader(ABC):
     def __init__(self, db_url: str = None):
         self.db_url = db_url or DB_URL
         self.engine = create_engine(self.db_url)
-        self.meta = MetaData(bind=self.engine)
+        self.meta = MetaData()
         logger.info(f"DB engine initialized at {self.db_url}")
 
     @abstractmethod

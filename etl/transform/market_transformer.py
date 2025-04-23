@@ -4,7 +4,7 @@ from etl.transform.base_transform import Transformer
 
 class MarketTransformer(Transformer):
     def __init__(self, raw_path: str):
-        super.__init__(raw_path)
+        super().__init__(raw_path)
 
     def transform(self) -> pd.DataFrame:
         # 1) Load JSON array
@@ -37,12 +37,12 @@ class MarketTransformer(Transformer):
         return df
 
 
-from etl.transform.market_transformer import MarketTransformer
+# from etl.transform.market_transformer import MarketTransformer
 
-mt = MarketTransformer("data/raw/market/bitcoin/market_2025-04-11_to_2025-04-21.json")
-df_mkt = mt.transform()
+# mt = MarketTransformer("data/raw/market/bitcoin/market_2025-04-11_to_2025-04-21.json")
+# df_mkt = mt.transform()
 
-print(df_mkt.head())
-print(df_mkt.dtypes)
-print(df_mkt.shape)
-print(df_mkt.columns.tolist())
+# print(df_mkt.head())
+# print(df_mkt.dtypes)
+# print(df_mkt.shape)
+# print(df_mkt.columns.tolist())

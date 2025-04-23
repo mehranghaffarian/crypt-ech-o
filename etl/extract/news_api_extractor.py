@@ -72,9 +72,9 @@ class NewsAPIExtractor(Extractor):
 
 
 
-from datetime import datetime, timedelta, timezone
+# from datetime import datetime, timedelta, timezone
 
-until = datetime.now(timezone.utc)
-since = until - timedelta(days=12)
+# until = datetime.now(timezone.utc)
+# since = until - timedelta(days=12)
 
-articles = NewsAPIExtractor('Apple').fetch(since, until)
+# articles = NewsAPIExtractor('Apple').fetch(since, until)

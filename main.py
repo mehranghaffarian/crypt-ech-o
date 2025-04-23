@@ -11,7 +11,8 @@ from etl.transform.news_transformer import NewsTransformer
 from etl.transform.market_transformer import MarketTransformer
 from etl.load.news_loader import NewsLoader
 from etl.load.market_loader import MarketLoader
-from etl.enrich.sentiment_enricher import SentimentEnricher
+from etl.enrich.finbert_enricher import FinBERTEnricher
+from etl.enrich.impact_calculator import ImpactCalculator
 
 logger = setup_logger(__name__)
 NEWS_QUERY = "crypto regulation"
@@ -27,7 +28,9 @@ def init_db():
 
 def transform_and_load_news():
     news_loader = NewsLoader()
-    enricher    = SentimentEnricher()
+    # enricher    = SentimentEnricher()
+    enricher    = FinBERTEnricher()    
+
     base = Path("data/raw/news")
     for query_dir in base.iterdir():
         if not query_dir.is_dir():
@@ -58,14 +61,14 @@ def run_etl():
     # News
     news_ex = NewsAPIExtractor(query=NEWS_QUERY)
     since_n = news_ex.load_state()
-    news_ex.fetch(since_n, now)
+    # news_ex.fetch(since_n, now)
 
     # Market (for two coins as example)
     raw_market = {}
     for coin in COINS:
         m_ex = CoinCapExtractor(query=coin)
         since_m = m_ex.load_state()
-        raw_market[coin] = m_ex.fetch(since_m, now)
+        # raw_market[coin] = m_ex.fetch(since_m, now)
 
     # — Transform and Load —
     transform_and_load_news()
@@ -81,6 +84,10 @@ if __name__ == "__main__":
         logger.info("Running ETL")
         run_etl()
         logger.info("ETL completed successfully.")
+        
+        calc = ImpactCalculator()
+        calc.compute_all(window_minutes=360)
+        logger.info("Headline impacts computed and stored.")
     except Exception as e:
         logger.exception(f"ETL failed:{e}")
         exit(1)
