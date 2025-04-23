@@ -27,8 +27,8 @@ def correlate():
     pearson_corr, pearson_p = pearsonr(df['sentiment'], df['price_change'])
     spearman_corr, spearman_p = spearmanr(df['sentiment'], df['price_change'])
 
-    logger.info(f"Pearson r = {pearson_corr:.4f} (p={pearson_p:.3g})")
-    logger.info(f"Spearman ρ = {spearman_corr:.4f} (p={spearman_p:.3g})")
+    logger.info(f"Pearson = {pearson_corr:.4f} (p={pearson_p:.3g})")
+    logger.info(f"Spearman = {spearman_corr:.4f} (p={spearman_p:.3g})")
 
     # Optionally save the joined dataset
     df.to_csv("data/analytics/sentiment_vs_price.csv", index=False)

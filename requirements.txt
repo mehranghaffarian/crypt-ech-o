@@ -10,3 +10,5 @@ vaderSentiment
 transformers
 pandas
 scipy
+matplotlib
+plotly

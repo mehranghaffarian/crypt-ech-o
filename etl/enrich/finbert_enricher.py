@@ -32,3 +32,4 @@ class FinBERTEnricher:
         df['finbert_label'] = labels
         df['finbert_score'] = scores
         return df
+

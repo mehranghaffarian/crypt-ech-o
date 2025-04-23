@@ -32,8 +32,10 @@ class NewsArticle(Base):
     published_at = Column(DateTime(timezone=True), nullable=False)
     content = Column(Text) 
     query = Column(Text)
-    finbert_label = Column(Text)
+         = Column(Text)
     finbert_score = Column(Numeric(9,6))
+    relevance_label = Column(Text)            # 'cryptocurrency' or 'general'
+    relevance_score = Column(Numeric(9,6))    # [0–1] confidence    
     __table_args__ = (
         Index('idx_news_published', 'published_at'),
     )

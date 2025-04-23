@@ -26,6 +26,5 @@ def validate_impacts():
         for coin, num, avg_d, avg_v in rows:
             logger.info(f"{coin:<10} {num:>8} {avg_d:12.4f} {avg_v:10.4f}")
 
-    
 if __name__ == "__main__":
     validate_impacts()
