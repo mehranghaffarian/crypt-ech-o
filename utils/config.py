@@ -13,3 +13,5 @@ COINS = ["bitcoin"]
 
 SINCE = datetime(2025, 4, 2,  0, 0, 0, tzinfo=timezone.utc)
 UNTIL = datetime(2025, 4, 22,  0, 0, 0, tzinfo=timezone.utc)
+
+NEWS_CANDIDATE_LABELS = ["cryptocurrency", "stock market", "politics", "technology", "entertainment", "general"]

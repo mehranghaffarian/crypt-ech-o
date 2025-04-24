@@ -1,5 +1,6 @@
 from transformers import pipeline
 import pandas as pd
+from utils.config import NEWS_CANDIDATE_LABELS
 
 class RelevanceEnricher:
     """
@@ -23,7 +24,7 @@ class RelevanceEnricher:
         for text in texts:
             result = self.cls(
                 text,
-                candidate_labels=["cryptocurrency", "stock market", "politics", "technology", "entertainment", "general"],
+                candidate_labels=NEWS_CANDIDATE_LABELS,
                 hypothesis_template=self.hypothesis_template
             )
             # find the score for 'cryptocurrency'

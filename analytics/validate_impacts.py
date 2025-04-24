@@ -9,15 +9,15 @@ def validate_impacts():
     with engine.connect() as conn:
         # Summarize counts and averages per coin
         sql = text("""
-            SELECT
-              coin,
-              COUNT(*)       AS num_impacts,
-              AVG(delta_pct) AS avg_delta_pct,
-              AVG(volatility) AS avg_volatility
-            FROM headline_impacts
-            GROUP BY coin
-            ORDER BY coin;
-        """)
+                        SELECT
+                        coin,
+                        COUNT(*)       AS num_impacts,
+                        AVG(delta_pct) AS avg_delta_pct,
+                        AVG(volatility) AS avg_volatility
+                        FROM headline_impacts
+                        GROUP BY coin
+                        ORDER BY coin;
+                    """)
         result = conn.execute(sql)
         rows = result.fetchall()
 

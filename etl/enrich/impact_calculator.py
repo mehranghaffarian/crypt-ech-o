@@ -1,8 +1,7 @@
 from sqlalchemy import create_engine, select
 from sqlalchemy.orm import Session
 from db.models import NewsArticle, MarketTick, HeadlineImpact
-from utils.config import DB_URL
-from datetime import timedelta
+from utils.config import DB_URL, COINS
 
 class ImpactCalculator:
     def __init__(self):
@@ -20,7 +19,7 @@ class ImpactCalculator:
             articles = session.scalars(select(NewsArticle)).all()
             for art in articles:
                 # Query before/after ticks for each coin
-                for coin in ["bitcoin", "ethereum"]:  # or derive from context
+                for coin in COINS:
                     # before tick
                     before = session.scalars(
                         select(MarketTick)

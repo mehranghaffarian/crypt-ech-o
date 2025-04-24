@@ -5,3 +5,7 @@ live news fetching nd more coins
 linking agents to trade according to the trends
 more test ;)
 engineering what news to extract
+
+
+***
+check every analysis is properly shown in the dashboard

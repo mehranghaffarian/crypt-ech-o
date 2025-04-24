@@ -13,6 +13,13 @@ from etl.load.market_loader import MarketLoader
 from etl.enrich.finbert_enricher import FinBERTEnricher
 from etl.enrich.impact_calculator import ImpactCalculator
 from etl.enrich.relevance_enricher import RelevanceEnricher
+from analytics.correlate_by_label import correlate_by_label
+from analytics.correlate_sentiment_price import correlate_sentiment_price
+from analytics.interactive_sentiment_plot import generate_sentiment_plot
+from analytics.find_outliers_by_relevance import find_outliers_by_relevance
+from analytics.plot_sentiment_vs_price import plot_sentiment_vs_price
+from analytics.sentiment_buckets_analysis import bucket_and_summarize
+from analytics.validate_impacts import validate_impacts
 
 logger = setup_logger(__name__)
 
@@ -78,11 +85,31 @@ if __name__ == "__main__":
         logger.info("Running ETL:")
         run_etl()
         
-        logger.info("Analyzing data:")
+        logger.info("Calculating news impacts:")
         ImpactCalculator().compute_all(window_minutes=120)
 
-        logger.info("Starting labels correltion:")
-        # correlate_by_label(
+        logger.info("Analyzing data:")
+
+        logger.info("Caluclating correlate_by_label:")
+        correlate_by_label()
+        
+        logger.info("Calculating correlate_sentiment_price:")
+        correlate_sentiment_price()
+
+        logger.info("Finding outliers_by_relevance:")
+        find_outliers_by_relevance()
+
+        logger.info("Generating sentiment_plot:")
+        generate_sentiment_plot()
+
+        logger.info("plot_by_relevance:")
+        plot_sentiment_vs_price()
+
+        logger.info("bucket_and_summarize:")
+        bucket_and_summarize()
+
+        logger.info("validate_impacts:")
+        validate_impacts()
     except Exception as e:
         logger.exception(f"ETL failed:{e}")
         exit(1)

@@ -1,13 +1,13 @@
 import pandas as pd
 from sqlalchemy import create_engine, select, text
-from utils.config import DB_URL
+from utils.config import DB_URL, NEWS_CANDIDATE_LABELS
 from utils.logging import setup_logger
 
 logger = setup_logger(__name__)
 
 def find_outliers_by_relevance(n=5):
     engine = create_engine(DB_URL)
-    for label in ["cryptocurrency", "general"]:
+    for label in NEWS_CANDIDATE_LABELS:
         # Positive movers
         pos_sql = text(f"""
           SELECT h.delta_pct, n.title, n.relevance_score

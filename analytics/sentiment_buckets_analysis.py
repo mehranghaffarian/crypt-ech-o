@@ -10,14 +10,14 @@ def bucket_and_summarize():
     engine = create_engine(DB_URL)
     # Pull required columns
     sql = text("""
-      SELECT
-        n.finbert_score    AS sentiment,
-        h.delta_pct        AS price_change
-      FROM headline_impacts h
-      JOIN news_articles n ON n.id = h.article_id
-      WHERE n.finbert_score IS NOT NULL
-        AND h.delta_pct IS NOT NULL
-    """)
+                  SELECT
+                    n.finbert_score    AS sentiment,
+                    h.delta_pct        AS price_change
+                  FROM headline_impacts h
+                  JOIN news_articles n ON n.id = h.article_id
+                  WHERE n.finbert_score IS NOT NULL
+                    AND h.delta_pct IS NOT NULL
+                """)
     df = pd.read_sql(sql, engine)
 
     # Define buckets

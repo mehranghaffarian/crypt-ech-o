@@ -3,7 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from utils.config import DB_URL
 
-def plot_by_relevance():
+def plot_sentiment_vs_price():
     engine = create_engine(DB_URL)
     # Query joined data with relevance label
     sql = text("""
@@ -63,5 +63,5 @@ def plot_by_relevance():
     plt.close()
 
 # Run the plotting function
-plot_by_relevance()
+# plot_by_relevance()
 

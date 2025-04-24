@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine, text
-from utils.config import DB_URL
+from utils.config import DB_URL, NEWS_CANDIDATE_LABELS
 from utils.logging import setup_logger
 from scipy.stats import pearsonr, spearmanr
 
@@ -8,7 +8,7 @@ logger = setup_logger(__name__)
 
 def correlate_by_label():
     engine = create_engine(DB_URL)
-    for label in ["cryptocurrency", "general"]:
+    for label in NEWS_CANDIDATE_LABELS:
         sql = text("""
           SELECT n.finbert_score AS sentiment, h.delta_pct AS price_change
           FROM headline_impacts h

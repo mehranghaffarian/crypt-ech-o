@@ -6,7 +6,7 @@ from scipy.stats import pearsonr, spearmanr
 
 logger = setup_logger(__name__)
 
-def correlate():
+def correlate_sentiment_price():
     engine = create_engine(DB_URL)
     # Pull joined data
     sql = text("""
@@ -35,4 +35,4 @@ def correlate():
     logger.info("Saved joined data to data/analytics/sentiment_vs_price.csv")
 
 if __name__ == "__main__":
-    correlate()
+    correlate_sentiment_price()

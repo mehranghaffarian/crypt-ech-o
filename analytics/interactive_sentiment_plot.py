@@ -3,7 +3,7 @@ import plotly.express as px
 from sqlalchemy import create_engine, text
 from utils.config import DB_URL
 
-def main(output_html="data/analytics/interactive_sentiment.html"):
+def generate_sentiment_plot(output_html="data/analytics/interactive_sentiment.html"):
     engine = create_engine(DB_URL)
     # Load your joined data, including title
     sql = text("""
@@ -49,4 +49,4 @@ def main(output_html="data/analytics/interactive_sentiment.html"):
     print(f"Interactive plot saved to {output_html}")
 
 if __name__ == "__main__":
-    main()
+    generate_sentiment_plot()

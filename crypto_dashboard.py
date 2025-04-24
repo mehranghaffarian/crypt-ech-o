@@ -28,7 +28,7 @@
 #     st.title("Crypt(Ech)o News → Market Dashboard")
 #     df = load_data()
 #     # Sidebar filters
-#     label = st.sidebar.selectbox("Relevance", ["all", "cryptocurrency", "general"])
+#     label = st.sidebar.selectbox("Relevance", ["all"].extend(NEWS_CANDIDATE_LABELS))
 #     sent_min, sent_max = st.sidebar.slider(
 #         "Sentiment range", 0.0, 1.0, (0.0, 1.0), 0.01
 #     )
