@@ -1,0 +1,7 @@
+Points to improve:
+more powerful, API, Enrich models
+scale up -> every thing in a container, kubernetese and kafka to interact, cron job and cloud storage 
+live news fetching nd more coins
+linking agents to trade according to the trends
+more test ;)
+engineering what news to extract

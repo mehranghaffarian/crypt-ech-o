@@ -3,7 +3,7 @@ from datetime import datetime
 import os
 import json
 from etl.extract.base_extractor import Extractor
-from utils.config import COINCAP_API_KEY
+from utils.config import COINCAP_API_KEY, SINCE, UNTIL
 from utils.logging import setup_logger
 
 logger = setup_logger(__name__)
@@ -27,7 +27,7 @@ class CoinCapExtractor(Extractor):
         try:
             resp = requests.get(
                 f"{self.BASE_URL}/{self.query}/history",
-                params={"interval": "h6", "start": start, "end": end},
+                params={"interval": "h2", "start": start, "end": end},
                 headers={"Authorization": f"Bearer {COINCAP_API_KEY}"}
             )
             logger.info(f"CoinCap returned status {resp.status_code}")
@@ -64,4 +64,4 @@ class CoinCapExtractor(Extractor):
 # until = datetime.now(timezone.utc)
 # since = until - timedelta(days=12)
 
-# articles = CoinCapExtractor('bitcoin').fetch(since, until)
+# articles = CoinCapExtractor('bitcoin').fetch(SINCE, UNTIL)

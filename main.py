@@ -2,7 +2,7 @@ from utils.logging import setup_logger
 from datetime import datetime, timedelta
 from sqlalchemy import create_engine
 from db.models import Base             
-from utils.config import DB_URL
+from utils.config import DB_URL, COINS, NEWS_QUERIES, SINCE, UNTIL
 from pathlib import Path
 from utils.logging import setup_logger
 from etl.extract.news_api_extractor import NewsAPIExtractor
@@ -16,8 +16,6 @@ from etl.enrich.impact_calculator import ImpactCalculator
 from etl.enrich.relevance_enricher import RelevanceEnricher
 
 logger = setup_logger(__name__)
-NEWS_QUERY = "crypto regulation"
-COINS = ["bitcoin","ethereum"]
 
 
 def init_db():
@@ -56,21 +54,17 @@ def transform_and_load_market():
             count = market_loader.load(df)
             logger.info(f"Inserted {count} rows from {raw_file.name}")
 
+
 def run_etl():
     """Perform one full ETL cycle."""
-    now = datetime.utcnow()
     # — Extract —
     # News
-    news_ex = NewsAPIExtractor(query=NEWS_QUERY)
-    since_n = news_ex.load_state()
-    # news_ex.fetch(since_n, now)
-
-    # Market (for two coins as example)
-    raw_market = {}
+    for q in NEWS_QUERIES:
+        NewsAPIExtractor(query=q).fetch(SINCE, UNTIL)
+        
+    # Market 
     for coin in COINS:
-        m_ex = CoinCapExtractor(query=coin)
-        since_m = m_ex.load_state()
-        # raw_market[coin] = m_ex.fetch(since_m, now)
+        CoinCapExtractor(query=coin).fetch(SINCE, UNTIL)
 
     # — Transform and Load —
     transform_and_load_news()

@@ -94,6 +94,7 @@ def load_impacts():
           n.title         AS headline,
           n.relevance_label,
           n.finbert_score AS sentiment,
+          n.published_at AS  published_at,
           h.delta_pct     AS price_change,
           h.coin          AS coin
         FROM headline_impacts h
@@ -201,6 +202,23 @@ with col2:
     st.table(general_neg[['delta_pct', 'title']].rename(
         columns={'delta_pct': 'Δ%'}
     ))
+
+## 4.4 Price Change vs. Date Time Series
+st.subheader("Price Change Over Time")
+# Ensure published_at is datetime
+df_impacts['published_at'] = pd.to_datetime(df_impacts['published_at'])
+fig_time = px.scatter(
+    df_impacts,
+    x='published_at', y='price_change',
+    color='coin',
+    hover_data=['headline', 'relevance_label', 'sentiment'],
+    labels={
+        'published_at': 'Published At',
+        'price_change': 'Price Change (%)'
+    },
+    title='Price Change vs. Published Date'
+)
+st.plotly_chart(fig_time, use_container_width=True)
 
 st.markdown("---")
 st.write("Built with **Streamlit**, **Plotly**, and **SQLAlchemy**. Use sidebar filters to explore how news sentiment and relevance correlate with market movements.")

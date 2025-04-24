@@ -3,7 +3,7 @@ import os
 import json
 from datetime import datetime
 from .base_extractor import Extractor
-from utils.config import NEWS_API_KEY
+from utils.config import NEWS_API_KEY, SINCE, UNTIL, NEWS_QUERIES
 from utils.logging import setup_logger
 
 logger = setup_logger(__name__)
@@ -23,8 +23,22 @@ class NewsAPIExtractor(Extractor):
             'q': self.query,
             'from': since.isoformat(),
             'to': until.isoformat(),
-            'pageSize': 50,
-            # 'sources': 'bbc-news',
+            'pageSize': 100,
+            # 'sources': ','.join([
+            #                 "bbc-news",
+            #                 "cnn",
+            #                 "bloomberg",
+            #                 "reuters",
+            #                 "the-new-york-times",
+            #                 "the-wall-street-journal",
+            #                 "forbes",
+            #                 "financial-times",
+            #                 "cnbc",
+            #                 "al-jazeera-english",
+            #                 "associated-press"
+            #             ]),
+            # 'domains': "bbc.co.uk,cnn.com,reuters.com,bloomberg.com,forbes.com,wsj.com,nytimes.com,cnbc.com,ft.com,theguardian.com,economist.com,techcrunch.com,thenextweb.com,wired.com,venturebeat.com,crypto.news,decrypt.co,coindesk.com,cointelegraph.com",
+            'excludeDomains': "medium.com,blogspot.com,wordpress.com,substack.com,tumblr.com,ghost.io,dev.to,hashnode.com,steemit.com,hackernews.com,engadget.com",
             'page': 1,
             'language': 'en',
             'sortBy': 'publishedAt'
@@ -33,7 +47,7 @@ class NewsAPIExtractor(Extractor):
 
         try:
             all_articles = []
-            while params['page'] <= 2:
+            while params['page'] <= 1: # due to free API-KEY limits
                 response = requests.get(self.BASE_URL, params=params)
                 logger.info(f"newsAPI returned status {response.status_code}")
                 response.raise_for_status()
@@ -72,9 +86,9 @@ class NewsAPIExtractor(Extractor):
 
 
 
-# from datetime import datetime, timedelta, timezone
-
-# until = datetime.now(timezone.utc)
-# since = until - timedelta(days=12)
-
-# articles = NewsAPIExtractor('Apple').fetch(since, until)
+# articles = []
+# articles.extend(NewsAPIExtractor(NEWS_QUERIES[5]).fetch(SINCE, UNTIL))
+# articles.extend(NewsAPIExtractor(NEWS_QUERIES[10]).fetch(SINCE, UNTIL))
+# articles.extend(NewsAPIExtractor(NEWS_QUERIES[20]).fetch(SINCE, UNTIL))
+# print(len(NEWS_QUERIES))
+# print("number of news: " + str(len(articles)))

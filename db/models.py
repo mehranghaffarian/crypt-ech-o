@@ -32,10 +32,10 @@ class NewsArticle(Base):
     published_at = Column(DateTime(timezone=True), nullable=False)
     content = Column(Text) 
     query = Column(Text)
-         = Column(Text)
-    finbert_score = Column(Numeric(9,6))
-    relevance_label = Column(Text)            # 'cryptocurrency' or 'general'
-    relevance_score = Column(Numeric(9,6))    # [0–1] confidence    
+    finbert_score = Column(Numeric(6,4))
+    finbert_label = Column(Text)          
+    relevance_label = Column(Text)            
+    relevance_score = Column(Numeric(6,4))    # [0–1] confidence    
     __table_args__ = (
         Index('idx_news_published', 'published_at'),
     )
@@ -47,8 +47,8 @@ class HeadlineImpact(Base):
     coin = Column(Text, nullable=False)
     before_id = Column(BigInteger, ForeignKey("market_ticks.id"), nullable=False)
     after_id = Column(BigInteger, ForeignKey("market_ticks.id"), nullable=False)
-    delta_pct = Column(Numeric(10,6))
-    volatility = Column(Numeric(10,6))
+    delta_pct = Column(Numeric(6,4))
+    volatility = Column(Numeric(6,4))
     window_minutes = Column(BigInteger)
     __table_args__ = (
         Index('idx_impacts_article', 'article_id'),
