@@ -1,5 +1,4 @@
 from utils.logging import setup_logger
-from datetime import datetime, timedelta
 from sqlalchemy import create_engine
 from db.models import Base             
 from utils.config import DB_URL, COINS, NEWS_QUERIES, SINCE, UNTIL
@@ -16,7 +15,6 @@ from etl.enrich.impact_calculator import ImpactCalculator
 from etl.enrich.relevance_enricher import RelevanceEnricher
 
 logger = setup_logger(__name__)
-
 
 def init_db():
     """Create tables if they don't exist yet."""
@@ -74,16 +72,17 @@ def run_etl():
 if __name__ == "__main__":
     logger.info("Starting Crypt(Ech)o project...")
     try:
-        logger.info("Initializing DB")
+        logger.info("Initializing DB:")
         init_db()
         
-        logger.info("Running ETL")
+        logger.info("Running ETL:")
         run_etl()
-        logger.info("ETL completed successfully.")
         
-        calc = ImpactCalculator()
-        calc.compute_all(window_minutes=360)
-        logger.info("Headline impacts computed and stored.")
+        logger.info("Analyzing data:")
+        ImpactCalculator().compute_all(window_minutes=120)
+
+        logger.info("Starting labels correltion:")
+        # correlate_by_label(
     except Exception as e:
         logger.exception(f"ETL failed:{e}")
         exit(1)
