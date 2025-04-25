@@ -36,13 +36,11 @@ class MarketTransformer(Transformer):
 
         return df
 
+if __name__ == "__main__":
+    mt = MarketTransformer("data/raw/market/bitcoin/market_2025-04-11_to_2025-04-21.json")
+    df_mkt = mt.transform()
 
-# from etl.transform.market_transformer import MarketTransformer
-
-# mt = MarketTransformer("data/raw/market/bitcoin/market_2025-04-11_to_2025-04-21.json")
-# df_mkt = mt.transform()
-
-# print(df_mkt.head())
-# print(df_mkt.dtypes)
-# print(df_mkt.shape)
-# print(df_mkt.columns.tolist())
+    print(df_mkt.head())
+    print(df_mkt.dtypes)
+    print(df_mkt.shape)
+    print(df_mkt.columns.tolist())

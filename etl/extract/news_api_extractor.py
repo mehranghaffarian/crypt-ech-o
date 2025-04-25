@@ -86,9 +86,10 @@ class NewsAPIExtractor(Extractor):
 
 
 
-# articles = []
-# articles.extend(NewsAPIExtractor(NEWS_QUERIES[5]).fetch(SINCE, UNTIL))
-# articles.extend(NewsAPIExtractor(NEWS_QUERIES[10]).fetch(SINCE, UNTIL))
-# articles.extend(NewsAPIExtractor(NEWS_QUERIES[20]).fetch(SINCE, UNTIL))
-# print(len(NEWS_QUERIES))
-# print("number of news: " + str(len(articles)))
+if __name__ == "__main__":
+    articles = []
+    articles.extend(NewsAPIExtractor(NEWS_QUERIES[5]).fetch(SINCE, UNTIL))
+    articles.extend(NewsAPIExtractor(NEWS_QUERIES[10]).fetch(SINCE, UNTIL))
+    articles.extend(NewsAPIExtractor(NEWS_QUERIES[20]).fetch(SINCE, UNTIL))
+    print(len(NEWS_QUERIES))
+    print("number of news: " + str(len(articles)))

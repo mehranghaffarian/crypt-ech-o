@@ -63,5 +63,6 @@ def plot_sentiment_vs_price():
     plt.close()
 
 # Run the plotting function
-# plot_by_relevance()
+if __name__ == "__main__":
+    plot_sentiment_vs_price()
 

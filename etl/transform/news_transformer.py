@@ -42,10 +42,11 @@ class NewsTransformer(Transformer):
 
 
 # point at your real file
-# transformer = NewsTransformer(
-#     "data/raw/news/crypto/news__2025-04-11_to_2025-04-21.json"
-# )
-# df = transformer.transform()
-# print(df.head())
-# print(df.dtypes)
-# print(df.columns.tolist())
+if __name__ == "__main__":
+    transformer = NewsTransformer(
+        "data/raw/news/crypto/news__2025-04-11_to_2025-04-21.json"
+    )
+    df = transformer.transform()
+    print(df.head())
+    print(df.dtypes)
+    print(df.columns.tolist())
