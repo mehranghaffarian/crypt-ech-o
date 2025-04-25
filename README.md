@@ -1,4 +1,3 @@
-
 # Crypt(Ech)o: News Impact on Crypto Market Analysis
 
 This project analyzes the impact of news on cryptocurrency price movements. By collecting, transforming, enriching, and visualizing data from news and market sources, the system allows users to explore correlations between public sentiment and crypto price fluctuations.
