@@ -1,7 +1,7 @@
 
-# Crypto News Sentiment Impact Analysis
+# Crypt(Ech)o: News Impact on Crypto Market Analysis
 
-This project analyzes the impact of news sentiment on cryptocurrency price movements. By collecting, transforming, enriching, and visualizing data from news and market sources, the system allows users to explore correlations between public sentiment and crypto price fluctuations.
+This project analyzes the impact of news on cryptocurrency price movements. By collecting, transforming, enriching, and visualizing data from news and market sources, the system allows users to explore correlations between public sentiment and crypto price fluctuations.
 
 ---
 
@@ -31,7 +31,7 @@ The project follows a modular ETL pipeline structure:
 
 4. **Enrich**  
    - FinBERT sentiment scoring  
-   - Zero‐shot relevance tagging (crypto vs. general)  
+   - Zero‐shot relevance tagging 
    - Matching headlines to before/after market ticks (price deltas, volatility)  
 
 5. **Analyze**  
@@ -52,18 +52,20 @@ The project follows a modular ETL pipeline structure:
 ```
 .
 ├── analytics/
-│   ├── correlate_by_label.py
-│   ├── correlate_sentiment_price.py
-│   ├── find_outliers_by_relevance.py
-│   ├── interactive_sentiment_plot.py
-│   ├── plot_sentiment_vs_price.py
-│   ├── sentiment_buckets_analysis.py
-│   └── validate_impacts.py
+├── data/
+│   ├── analytics/
+│   ├── raw/
 ├── db/
-│   └── models.py
+├── etl/
+│   ├── enrich/
+│   ├── extract/
+│   ├── load/
+│   ├── transform/
+├── utils/
 ├── docker-compose.yml
-├── dashboard.py           # Streamlit dashboard entrypoint
+├── crypto_dashboard.py           # Streamlit dashboard entrypoint
 ├── main.py               # ETL orchestrator
+├── Dockerfile
 ├── requirements.txt
 └── README.md
 ```
@@ -136,7 +138,7 @@ The project follows a modular ETL pipeline structure:
 
 1. **Sidebar Filters**  
    - Coin  
-   - Relevance (`cryptocurrency` vs. `general`)  
+   - Relevance   
    - Sentiment score range  
    - Price change range  
 
@@ -159,19 +161,6 @@ The project follows a modular ETL pipeline structure:
 - **Phase 1**: Extraction of news & market data  
 - **Phase 2**: Transformation, loading into Postgres, enrichment, and impact calculation  
 - **Phase 3**: Analytics scripts and interactive Streamlit dashboard  
-
----
-
-## 📖 How to Demo
-
-1. **Run**:  
-   ```bash
-   docker-compose up --build
-   ```  
-2. **Browse**:  
-   `http://localhost:8501/` to interact with the dashboard.  
-3. **Explore**:  
-   Use sidebar to slice data, hover scatter to read headlines, view bucket summaries and outlier tables.  
 
 ---
 
