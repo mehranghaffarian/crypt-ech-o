@@ -54,7 +54,7 @@ def bucket_and_summarize():
     plt.title('Avg Crypto Price Move by Sentiment Bucket')
     plt.tight_layout()
     plt.savefig('data/analytics/bucket_bar_chart.png')
-    print("Saved bucket bar chart to data/analytics/bucket_bar_chart.png")
+    logger.info("Saved bucket bar chart to data/analytics/bucket_bar_chart.png")
 
 
 if __name__ == "__main__":

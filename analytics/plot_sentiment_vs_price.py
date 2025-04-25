@@ -1,7 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 from sqlalchemy import create_engine, text
-from utils.config import DB_URL
+from utils.config import DB_URL, NEWS_CANDIDATE_LABELS
+from utils.logging import setup_logger
+
+logger = setup_logger(__name__)
 
 def plot_sentiment_vs_price():
     engine = create_engine(DB_URL)
@@ -18,49 +21,29 @@ def plot_sentiment_vs_price():
     """)
     df = pd.read_sql(sql, engine)
 
-    # Separate subsets
-    df_crypto = df[df['label'] == 'cryptocurrency']
-    df_general = df[df['label'] == 'general']
+    for label in NEWS_CANDIDATE_LABELS: 
+      label_df = df[df['label'] == label]
+      # Scatter for general
+      plt.figure()
+      plt.scatter(label_df['sentiment'], label_df['price_change'], alpha=0.6, s=10)
+      plt.xlabel('Sentiment Score')
+      plt.ylabel('Price Change (%)')
+      plt.title('General News: Sentiment vs. Price Change')
+      plt.tight_layout()
+      plt.savefig(f'data/analytics/{label}_scatter.png')
+      plt.close()
 
-    # Scatter for crypto
-    plt.figure()
-    plt.scatter(df_crypto['sentiment'], df_crypto['price_change'], alpha=0.6, s=10)
-    plt.xlabel('Sentiment Score')
-    plt.ylabel('Price Change (%)')
-    plt.title('Crypto-related News: Sentiment vs. Price Change')
-    plt.tight_layout()
-    plt.savefig('data/analytics/crypto_scatter.png')
-    plt.close()
+      # Histogram for crypto
+      plt.figure()
+      plt.hist(label_df['price_change'], bins=50, edgecolor='black')
+      plt.xlabel('Price Change (%)')
+      plt.ylabel('Frequency')
+      plt.title('Crypto-related News: Price Change Distribution')
+      plt.tight_layout()
+      plt.savefig(f'data/analytics/{label}_hist.png')
+      plt.close()
 
-    # Scatter for general
-    plt.figure()
-    plt.scatter(df_general['sentiment'], df_general['price_change'], alpha=0.6, s=10)
-    plt.xlabel('Sentiment Score')
-    plt.ylabel('Price Change (%)')
-    plt.title('General News: Sentiment vs. Price Change')
-    plt.tight_layout()
-    plt.savefig('data/analytics/general_scatter.png')
-    plt.close()
-
-    # Histogram for crypto
-    plt.figure()
-    plt.hist(df_crypto['price_change'], bins=50, edgecolor='black')
-    plt.xlabel('Price Change (%)')
-    plt.ylabel('Frequency')
-    plt.title('Crypto-related News: Price Change Distribution')
-    plt.tight_layout()
-    plt.savefig('data/analytics/crypto_hist.png')
-    plt.close()
-
-    # Histogram for general
-    plt.figure()
-    plt.hist(df_general['price_change'], bins=50, edgecolor='black')
-    plt.xlabel('Price Change (%)')
-    plt.ylabel('Frequency')
-    plt.title('General News: Price Change Distribution')
-    plt.tight_layout()
-    plt.savefig('data/analytics/general_hist.png')
-    plt.close()
+      logger.info("Sentiment vs Price Plots are all generated")
 
 # Run the plotting function
 if __name__ == "__main__":
