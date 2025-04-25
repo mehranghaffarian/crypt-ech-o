@@ -1,0 +1,4 @@
+bucket,count,avg_change,std_change,min_change,max_change
+negative,0,,,,
+neutral,399,0.2354345864661654,1.64649306268936,-4.6941,7.3923
+positive,1996,0.1390000501002004,1.4152033413004892,-4.6941,7.3923

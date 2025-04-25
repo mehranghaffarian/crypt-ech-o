@@ -1,0 +1,1302 @@
+[
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Millions of SK Telecom customers are potentially at risk following USIM data compromise",
+    "description": "SK Telecom warned that threat actors accessed customer Universal Subscriber Identity Module (USIM) info through a malware attack. SK Telecom is South Korea\u2019s largest wireless telecom company, a major player in the country\u2019s mobile and tech landscape. It holds\u2026",
+    "url": "https://securityaffairs.com/176802/data-breach/sk-telecom-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-38.png",
+    "publishedAt": "2025-04-22T20:37:47Z",
+    "content": "Millions of SK Telecom customers are potentially at risk following USIM data compromise\r\n\u00a0|\u00a0Japan s FSA warns of unauthorized trades via stolen credentials from fake security firms' sites\r\n\u00a0|\u00a0Kimsuky\u2026 [+157467 chars]"
+  },
+  {
+    "source": {
+      "id": "fox-news",
+      "name": "Fox News"
+    },
+    "author": "Kurt Knutsson, CyberGuy Report",
+    "title": "Insurance data breach exposes sensitive info of 1.6 million people",
+    "description": "Landmark Admin revises May 2024 cyberattack scope to show twice as many people were affected. Kurt \u201cCyberGuy\" Knutsson gives tips to help stay safe from an insurance data breach.",
+    "url": "https://www.foxnews.com/tech/insurance-data-breach-exposes-sensitive-info-1-6-million-people",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2025/04/1-insurance-data-breach-exposes-sensitive-info-of-1.6-million-people-intro.jpg",
+    "publishedAt": "2025-04-22T14:00:07Z",
+    "content": "If theres one thing Ive learned from covering data breaches over the years, its that you should never take a companys initial numbers at face value. When a breach becomes public, most companies try t\u2026 [+8657 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Abilene city, Texas, takes systems offline following a cyberattack",
+    "description": "Abilene, Texas, shut down systems after a cyberattack caused server issues. IT staff and experts are investigating the security incident. Abilene, Texas, shut down systems after a cyberattack caused server issues. The incident occurred on April 18, 2025, emer\u2026",
+    "url": "https://securityaffairs.com/176793/hacking/abilene-city-texas-takes-systems-offline-following-a-cyberattack.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2016/10/bind-DNS-Server-Attacks.jpg",
+    "publishedAt": "2025-04-22T08:45:14Z",
+    "content": "Japan s FSA warns of unauthorized trades via stolen credentials from fake security firms' sites\r\n\u00a0|\u00a0Kimsuky APT exploited BlueKeep RDP flaw in attacks against South Korea and Japan\r\n\u00a0|\u00a0New sophistica\u2026 [+157375 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Japan \u2019s FSA warns of unauthorized trades via stolen credentials from fake security firms\u2019 sites",
+    "description": "Japan \u2019s Financial Services Agency (FSA) warns of hundreds of millions in unauthorized trades linked to hacked brokerage accounts. Japan \u2019s Financial Services Agency (FSA) reported that the damage caused by unauthorized access to and transactions on internet \u2026",
+    "url": "https://securityaffairs.com/176776/hacking/japan-s-financial-services-agency-warns-of-unauthorized-trades.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/10/japan.jpg",
+    "publishedAt": "2025-04-22T08:06:04Z",
+    "content": "Japan s FSA warns of unauthorized trades via stolen credentials from fake security firms' sites\r\n\u00a0|\u00a0Kimsuky APT exploited BlueKeep RDP flaw in attacks against South Korea and Japan\r\n\u00a0|\u00a0New sophistica\u2026 [+157375 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Kimsuky APT exploited BlueKeep RDP flaw in attacks against South Korea and Japan",
+    "description": "Researchers spotted a new North Korea-linked group Kimsuky \u2018s campaign, exploiting a patched Microsoft Remote Desktop Services flaw to gain initial access. While investigating a security breach, the AhnLab SEcurity intelligence Center (ASEC) researchers disco\u2026",
+    "url": "https://securityaffairs.com/176756/apt/kimsuky-apt-exploited-bluekeep-rdp-flaw-in-attacks-against-south-korea-and-japan.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-37.png",
+    "publishedAt": "2025-04-21T18:25:20Z",
+    "content": "Kimsuky APT exploited BlueKeep RDP flaw in attacks against South Korea and Japan\r\n\u00a0|\u00a0New sophisticate malware SuperCard X targets Androids via NFC relay attacks\r\n\u00a0|\u00a0Russia-linked APT29 targets Europe\u2026 [+157275 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Simonwillison.net"
+    },
+    "author": "Simon Willison",
+    "title": "AI assisted search-based research works now",
+    "description": "For the past two and a half years the feature I\u2019ve most wanted from LLMs is the ability to take on search-based research tasks on my behalf. We saw the \u2026",
+    "url": "https://simonwillison.net/2025/Apr/21/ai-assisted-search/",
+    "urlToImage": "https://static.simonwillison.net/static/2025/search-works-card.jpg",
+    "publishedAt": "2025-04-21T14:15:17Z",
+    "content": "21st April 2025\r\nFor the past two and a half years the feature Ive most wanted from LLMs is the ability to take on search-based research tasks on my behalf. We saw the first glimpses of this back in \u2026 [+5599 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Kunstler.com"
+    },
+    "author": "James Howard Kunstler",
+    "title": "The Great Consternation",
+    "description": "\u201cDue process is when only one side has to follow the law and if you point out that this is a suicidal standard you\u2019re a fascist\u201d \u2014 Auron MacIntyre",
+    "url": "https://www.kunstler.com/p/the-great-consternation",
+    "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6b2e1c-0dfe-4f5a-a409-ccd7e71732de_2048x1365.heic",
+    "publishedAt": "2025-04-21T11:50:24Z",
+    "content": "A great consternation boils and bubbles across the land as the sinister forces of Jacobin lawfare keep up their legalistic battery against the nation. You better believe that the country will not sta\u2026 [+6898 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Internet"
+    },
+    "author": "info@thehackernews.com (The Hacker News)",
+    "title": "\u26a1 THN Weekly Recap: iOS Zero-Days, 4Chan Breach, NTLM Exploits, WhatsApp Spyware & More",
+    "description": "Can a harmless click really lead to a full-blown cyberattack?\nSurprisingly, yes \u2014 and that\u2019s exactly what we saw in last week\u2019s activity. Hackers are getting better at hiding inside everyday actions: opening a file, running a project, or logging in like norma\u2026",
+    "url": "https://thehackernews.com/2025/04/thn-weekly-recap-ios-zero-days-4chan.html",
+    "urlToImage": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2xukBJUi8pjcSfvONOoKAOoUFu4tQNu6RK5essP9M7D238JyV-pEN-D2SHsod1qYHst-7D1ND4NkWWTC2i1FervBo13M3mnQzLykv2D2iXaMl991lEK1CMefnrdJcxKcpIfVLoNbbarH6PW6p9uSgxymvfhgCBUyA7iB1gMSTpeCZjqDT-_Y5i2yEmjsc/s728-rw-e365/recap.jpg",
+    "publishedAt": "2025-04-21T10:10:00Z",
+    "content": "Can a harmless click really lead to a full-blown cyberattack?\r\nSurprisingly, yes \u2014 and that's exactly what we saw in last week's activity. Hackers are getting better at hiding inside everyday actions\u2026 [+28180 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "New sophisticate malware SuperCard X targets Androids via NFC relay attacks",
+    "description": "\u2018SuperCard X\u2019 \u2013 a new MaaS \u2013 targets Androids via NFC relay attacks, enabling fraudulent POS and ATM transactions with stolen card data. Cleafy researchers discovered a new malware-as-a-service (MaaS) called SuperCard X targeting Android devices with NFC rela\u2026",
+    "url": "https://securityaffairs.com/176737/malware/supercard-x-a-new-sophisticate-malware-targets-androids-via-nfc-relay-attacks.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-36.png",
+    "publishedAt": "2025-04-21T09:24:17Z",
+    "content": "New sophisticate malware SuperCard X targets Androids via NFC relay attacks\r\n\u00a0|\u00a0Russia-linked APT29 targets European diplomatic entities with GRAPELOADER malware\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETT\u2026 [+157190 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Russia-linked APT29 targets European diplomatic entities with GRAPELOADER malware",
+    "description": "Russia-linked group APT29 targeted diplomatic entities across Europe with a new malware loader codenamed GRAPELOADER. Check Point Research team reported that Russia-linked cyberespionage group APT29 (aka\u00a0SVR group,\u00a0Cozy Bear,\u00a0Nobelium,\u00a0BlueBravo,\u00a0Midnight Bli\u2026",
+    "url": "https://securityaffairs.com/176730/apt/russia-linked-apt29-targets-european-diplomatic-entities-with-grapeloader.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-34.png",
+    "publishedAt": "2025-04-21T08:11:41Z",
+    "content": "Russia-linked APT29 targets European diplomatic entities with GRAPELOADER\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 42\r\n\u00a0|\u00a0Security Affairs newsletter Round 520 by Pierluigi Paganini INTERNATIONA\u2026 [+157102 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 42",
+    "description": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Malicious NPM Packages Targeting PayPal Users New Malware Variant Identified: ResolverRAT Enters the Maze\u00a0\u00a0 \u00a0\u00a0\u00a0 Nice chatting\u2026",
+    "url": "https://securityaffairs.com/176725/malware/security-affairs-malware-newsletter-round-42.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/07/SecurityAffairs-malware-newsletter-2.png",
+    "publishedAt": "2025-04-20T16:23:58Z",
+    "content": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 42\r\n\u00a0|\u00a0Security Affairs newsletter Round 520 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0Attackers exploited SonicWall SMA appliances since January 2025\r\u2026 [+157024 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Security Affairs newsletter Round 520 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+    "description": "A new round of the weekly SecurityAffairs newsletter arrived! Every week the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Attackers expl\u2026",
+    "url": "https://securityaffairs.com/176716/breaking-news/security-affairs-newsletter-round-520-by-pierluigi-paganini-international-edition.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/03/newsletter.png",
+    "publishedAt": "2025-04-20T09:53:17Z",
+    "content": "Security Affairs newsletter Round 520 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0Attackers exploited SonicWall SMA appliances since January 2025\r\n\u00a0|\u00a0ASUS routers with AiCloud vulnerable to auth \u2026 [+156975 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Attackers exploited SonicWall SMA appliances since January 2025",
+    "description": "Threat actors are actively exploiting a remote code execution flaw in SonicWall Secure Mobile Access (SMA) appliances since January 2025. Arctic Wolf researchers warn that threat actors actively exploit a vulnerability, tracked as CVE-2021-20035 (CVSS score o\u2026",
+    "url": "https://securityaffairs.com/176706/security/attackers-exploited-sonicwall-sma-appliances-since-january-2025.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/10/SonicWall.png",
+    "publishedAt": "2025-04-19T17:37:08Z",
+    "content": "Attackers exploited SonicWall SMA appliances since January 2025\r\n\u00a0|\u00a0ASUS routers with AiCloud vulnerable to auth bypass exploit\r\n\u00a0|\u00a0U.S. CISA adds Apple products and Microsoft Windows NTLM flaws to i\u2026 [+156889 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "ASUS routers with AiCloud vulnerable to auth bypass exploit",
+    "description": "ASUS warns of an authentication bypass vulnerability in routers with AiCloud enabled that could allow unauthorized execution of functions on the device. ASUS warns of an authentication bypass vulnerability, tracked as\u00a0CVE-2025-2492\u00a0(CVSS v4 score: 9.2), which\u2026",
+    "url": "https://securityaffairs.com/176697/security/asus-warns-of-a-router-authentication-bypass-flaw.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2023/06/ASUS-LOGO.png",
+    "publishedAt": "2025-04-18T19:26:02Z",
+    "content": "ASUS routers with AiCloud vulnerable to auth bypass exploit\r\n\u00a0|\u00a0U.S. CISA adds Apple products and Microsoft Windows NTLM flaws to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0Entertainment venue m\u2026 [+156821 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "BleepingComputer"
+    },
+    "author": "Bill Toulas",
+    "title": "Interlock ransomware gang pushes fake IT tools in ClickFix attacks",
+    "description": "The Interlock ransomware gang now uses ClickFix attacks that\u00a0impersonate IT tools to breach corporate networks and deploy file-encrypting malware on devices. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/interlock-ransomware-gang-pushes-fake-it-tools-in-clickfix-attacks/",
+    "urlToImage": "https://www.bleepstatic.com/content/hl-images/2022/10/04/hacker-arms-raised-brighter.jpg",
+    "publishedAt": "2025-04-18T17:44:40Z",
+    "content": "The Interlock ransomware gang now uses ClickFix attacks that\u00a0impersonate IT tools to breach corporate networks and deploy file-encrypting malware on devices.\r\nClickFix is a social engineering tactic \u2026 [+3659 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "U.S. CISA adds Apple products and Microsoft Windows NTLM flaws to its Known Exploited Vulnerabilities catalog",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Apple products and Microsoft Windows NTLM flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added Apple products and Microso\u2026",
+    "url": "https://securityaffairs.com/176687/hacking/u-s-cisa-adds-apple-products-and-microsoft-windows-ntlm-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+    "publishedAt": "2025-04-18T11:19:58Z",
+    "content": "U.S. CISA adds Apple products and Microsoft Windows NTLM flaws to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0Entertainment venue management firm Legends International disclosed a data breach\r\n\u00a0|\u2026 [+156757 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Entertainment venue management firm Legends International disclosed a data breach",
+    "description": "Legends International disclosed a data breach from November 2024 that affected employees and visitors to its managed venues. Legends International is a global leader in sports and entertainment venue management, specializing in delivering comprehensive soluti\u2026",
+    "url": "https://securityaffairs.com/176674/data-breach/legends-international-disclosed-a-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2012/04/data-breach.jpg",
+    "publishedAt": "2025-04-18T07:20:18Z",
+    "content": "Entertainment venue management firm Legends International disclosed a data breach\r\n\u00a0|\u00a0Node.js malvertising campaign targets crypto users\r\n\u00a0|\u00a0Apple released emergency updates for actively exploited fl\u2026 [+156643 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Entertainment venue management firm Legends International disclosed a data breach",
+    "description": "Legends International disclosed a data breach from November 2024 that affected employees and visitors to its managed venues. Legends International is a global leader in sports and entertainment venue management, specializing in delivering comprehensive soluti\u2026",
+    "url": "https://securityaffairs.com/176674/uncategorized/legends-international-disclosed-a-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2012/04/data-breach.jpg",
+    "publishedAt": "2025-04-18T07:20:18Z",
+    "content": "Entertainment venue management firm Legends International disclosed a data breach\r\n\u00a0|\u00a0Node.js malvertising campaign targets crypto users\r\n\u00a0|\u00a0Apple released emergency updates for actively exploited fl\u2026 [+156643 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "China-linked APT Mustang Panda upgrades tools in its arsenal",
+    "description": "China-linked APT group Mustang Panda deployed a new custom backdoor, MQsTTang, in recent attacks targeting Europe, Asia, and Australia. China-linked APT group Mustang Panda (aka Camaro Dragon, RedDelta or Bronze President). deployed a new custom backdoor, tra\u2026",
+    "url": "https://securityaffairs.com/176662/apt/china-linked-apt-mustang-panda-upgrades-tools-in-its-arsenal.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-33.png",
+    "publishedAt": "2025-04-17T19:30:42Z",
+    "content": "Node.js malvertising campaign targets crypto users\r\n\u00a0|\u00a0Apple released emergency updates for actively exploited flaws\r\n\u00a0|\u00a0U.S. CISA adds SonicWall SMA100 Appliance flaw to its Known Exploited Vulnerab\u2026 [+156557 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "BleepingComputer"
+    },
+    "author": "Bill Toulas",
+    "title": "Ahold Delhaize confirms data theft after INC ransomware claims attack",
+    "description": "Food retail giant Ahold Delhaize confirms\u00a0that data was stolen from its U.S. business systems during a November 2024 cyberattack. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-confirms-data-theft-after-inc-ransomware-claims-attack/",
+    "urlToImage": "https://www.bleepstatic.com/content/hl-images/2025/04/17/food-lion-header.jpg",
+    "publishedAt": "2025-04-17T14:49:09Z",
+    "content": "Food retail giant Ahold Delhaize confirms\u00a0that data was stolen from its U.S. business systems during a November 2024 cyberattack.\r\n\"Based on our investigation to date, certain files were taken from s\u2026 [+2182 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Node.js malvertising campaign targets crypto users",
+    "description": "Microsoft warns of a malvertising campaign using Node.js to deliver info-stealing malware via fake crypto trading sites like Binance and TradingView. Microsoft has observed Node.js increasingly used in malware campaigns since October 2024, including an ongoin\u2026",
+    "url": "https://securityaffairs.com/176651/hacking/node-js-malvertising-campaign-targets-crypto-users.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-32-scaled.png",
+    "publishedAt": "2025-04-17T13:07:20Z",
+    "content": "Node.js malvertising campaign targets crypto users\r\n\u00a0|\u00a0Apple released emergency updates for actively exploited flaws\r\n\u00a0|\u00a0U.S. CISA adds SonicWall SMA100 Appliance flaw to its Known Exploited Vulnerab\u2026 [+156557 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Apple released emergency updates for actively exploited flaws",
+    "description": "Apple released emergency updates to fix iOS, iPadOS & macOS vulnerabilities actively exploited in sophisticated attacks. Apple released out\u2011of\u2011band security updates to address two vulnerabilities, tracked as CVE-2025-31200 and CVE-2025-31201, impacting iOS, i\u2026",
+    "url": "https://securityaffairs.com/176644/security/apple-emergency-updates-actively-exploited-ios-ipados-macos-bugs.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2021/03/apple.jpg",
+    "publishedAt": "2025-04-17T09:24:47Z",
+    "content": "Apple released emergency updates for actively exploited iOS, iPadOS and macOS flaws\r\n\u00a0|\u00a0U.S. CISA adds SonicWall SMA100 Appliance flaw to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0CISA's 11-Mon\u2026 [+156524 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "U.S. CISA adds SonicWall SMA100 Appliance flaw to its Known Exploited Vulnerabilities catalog",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds SonicWall SMA100 Appliance flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added a SonicWall SMA100 Appliance flaw, tracked\u2026",
+    "url": "https://securityaffairs.com/176630/hacking/u-s-cisa-adds-sonicwall-sma100-appliance-flaw-to-its-known-exploited-vulnerabilities-catalog.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+    "publishedAt": "2025-04-17T08:30:00Z",
+    "content": "Apple released emergency updates for actively exploited flaws\r\n\u00a0|\u00a0U.S. CISA adds SonicWall SMA100 Appliance flaw to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0CISA's 11-Month extension ensures c\u2026 [+156502 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Resecurity.com"
+    },
+    "author": "Help Net Security",
+    "title": "Cyber threats against energy sector surge as global tensions mount",
+    "description": "Cyberattacks targeting the energy sector are increasing, driven by a host of geopolitical and technological factors. A report published by Sophos in July 2024, and which surveyed 275 cybersecurity and IT leaders from the energy, oil/gas, and utilities sector \u2026",
+    "url": "https://www.resecurity.com/blog/article/cyber-threats-against-energy-sector-surge-global-tensions-mount",
+    "urlToImage": "https://img.helpnetsecurity.com/wp-content/uploads/2023/06/03202314/energy_company.jpg",
+    "publishedAt": "2025-04-17T08:00:45Z",
+    "content": "Cyberattacks targeting the energy sector are increasing, driven by a host of geopolitical and technological factors. A report published by Sophos in July 2024, and which surveyed 275 cybersecurity an\u2026 [+42622 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "CISA\u2019s 11-Month extension ensures continuity of MITRE\u2019s CVE Program",
+    "description": "MITRE\u2019s U.S.-funded CVE program, a core cybersecurity tool for tracking vulnerabilities, faces funding expiry Wednesday, risking disruption to global security. U.S. government funding for MITRE \u2019s CVE program, a key global cybersecurity resource for catalogin\u2026",
+    "url": "https://securityaffairs.com/176608/security/cisas-11-month-extension-ensures-continuity-of-mitres-cve-program.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2022/06/mitre.png",
+    "publishedAt": "2025-04-16T20:13:01Z",
+    "content": "CISA's 11-Month extension ensures continuity of MITRE's CVE Program\r\n\u00a0|\u00a0Cyber Threats Against Energy Sector Surge as Global Tensions Mount\r\n\u00a0|\u00a0Government contractor Conduent disclosed a data breach\r\n\u2026 [+156338 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "HackRead"
+    },
+    "author": "Waqas",
+    "title": "BidenCash Market Dumps 1 Million Stolen Credit Cards on Russian Forum",
+    "description": "BidenCash dumps almost a million stolen credit card records on Russian forum, exposing card numbers, CVVs, and expiry dates in plain text with no cardholder names.",
+    "url": "https://hackread.com/bidencash-market-leak-credit-cards-russian-forum/",
+    "urlToImage": "https://hackread.com/wp-content/uploads/2025/04/bidencash-leaks-99000-credit-card-records-on-russian-cybercrime-forum-2.jpg",
+    "publishedAt": "2025-04-16T15:18:07Z",
+    "content": "BidenCash, a dark web carding marketplace known for its aggressive tactics, has leaked a fresh batch of 910,380 stolen credit card records on the Russian-language cybercrime forum XSS.\r\nThe leak, pub\u2026 [+3412 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "HackRead"
+    },
+    "author": "Deeba Ahmed",
+    "title": "Hertz Confirms Data Breach After Hackers Stole Customer PII",
+    "description": "Hertz confirms data breach linked to Cleo software flaw; Cl0p ransomware group leaked stolen data, exposing names, driver\u2019s\u2026",
+    "url": "https://hackread.com/hertz-confirms-data-breach-hackers-stole-customer-pii/",
+    "urlToImage": "https://hackread.com/wp-content/uploads/2025/04/hertz-confirms-data-breach-hackers-stole-customer-pii-2.jpg",
+    "publishedAt": "2025-04-16T12:19:42Z",
+    "content": "Hertz confirms data breach linked to Cleo software flaw; Cl0p ransomware group leaked stolen data, exposing names, drivers licenses, and credit card details.\r\nCar rental company Hertz has announced t\u2026 [+3865 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Chinese Android phones shipped with malware-laced WhatsApp, Telegram apps",
+    "description": "Cheap Chinese Android phones ship with trojanized WhatsApp and Telegram clones hiding crypto clippers, active since June 2024. Since June 2024, Doctor Web researchers found cheap Android phones preloaded with fake WhatsApp and Telegram apps designed to steal \u2026",
+    "url": "https://securityaffairs.com/176600/malware/chinese-android-phones-shipped-with-malware-laced-whatsapp-telegram-apps.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-30.png",
+    "publishedAt": "2025-04-16T11:41:37Z",
+    "content": "Cyber Threats Against Energy Sector Surge as Global Tensions Mount\r\n\u00a0|\u00a0Government contractor Conduent disclosed a data breach\r\n\u00a0|\u00a0Critical Apache Roller flaw allows to retain unauthorized access even\u2026 [+156266 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Cyber Threats Against Energy Sector Surge as Global Tensions Mount",
+    "description": "Resecurity warns of rising cyberattacks on the energy sector, some linked to large-scale campaigns targeting national infrastructure for geopolitical aims. Resecurity warns\u00a0about the increase in targeted cyberattacks against enterprises in the energy sector w\u2026",
+    "url": "https://securityaffairs.com/176591/hacking/cyber-threats-against-energy-sector-surge-as-global-tensions-mount.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/energy.jpg",
+    "publishedAt": "2025-04-16T08:27:36Z",
+    "content": "Cyber Threats Against Energy Sector Surge as Global Tensions Mount\r\n\u00a0|\u00a0Government contractor Conduent disclosed a data breach\r\n\u00a0|\u00a0Critical Apache Roller flaw allows to retain unauthorized access even\u2026 [+156266 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Government contractor Conduent disclosed a data breach",
+    "description": "The business services provider Conduent told the SEC a January cyberattack exposed personal data, including names and Social Security numbers. The business services provider Conduent revealed that personal information, including names and Social Security numb\u2026",
+    "url": "https://securityaffairs.com/176581/data-breach/government-contractor-conduent-disclosed-a-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2012/04/data-breach.jpg",
+    "publishedAt": "2025-04-16T07:53:50Z",
+    "content": "Government contractor Conduent disclosed a data breach\r\n\u00a0|\u00a0Critical Apache Roller flaw allows to retain unauthorized access even after a password change\r\n\u00a0|\u00a0Meta will use public EU user data to train\u2026 [+156195 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Eth.limo"
+    },
+    "author": null,
+    "title": "Why I support privacy",
+    "description": "Whoever has the information has the power, ergo we need to avoid centralized control over information.",
+    "url": "https://vitalik.eth.limo/general/2025/04/14/privacy.html",
+    "urlToImage": "http://vitalik.ca/images/icon.png",
+    "publishedAt": "2025-04-16T04:00:00Z",
+    "content": "2025 Apr 14 See all posts Why I support privacy \r\nSpecial thanks to Balvi volunteers, Paul Dylan-Ennis,\r\npcaversaccio, vectorized, Bruce Xu and Luozhu Zhang for discussion and\r\nfeedback.\r\nRecently, I\u2026 [+34838 chars]"
+  },
+  {
+    "source": {
+      "id": "breitbart-news",
+      "name": "Breitbart News"
+    },
+    "author": "Lucas Nolan, Lucas Nolan",
+    "title": "Hertz Discloses Data Breach Exposing Customers' Personal Information, Driver's Licenses",
+    "description": "Hertz, the car rental giant that also owns the Dollar and Thrifty brands, is notifying customers of a data breach that compromised their personal information and driver's licenses.\nThe post Hertz Discloses Data Breach Exposing Customers\u2019 Personal Information,\u2026",
+    "url": "https://www.breitbart.com/tech/2025/04/15/hertz-discloses-data-breach-exposing-customers-personal-information-drivers-licenses/",
+    "urlToImage": "https://media.breitbart.com/media/2025/04/hacker-at-laptop-640x335.jpg",
+    "publishedAt": "2025-04-15T16:20:17Z",
+    "content": "Hertz, the car rental giant that also owns the Dollar and Thrifty brands, is notifying customers of a data breach that compromised their personal information and driver\u2019s licenses.\r\nTechCrunch report\u2026 [+2910 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Fortra.com"
+    },
+    "author": "Graham Cluley",
+    "title": "RansomHouse ransomware: what you need to know",
+    "description": "RansomHouse is a cybercrime operation that follows a Ransomware-as-a-Service (RaaS) business model, where affiliates (who do not require technical skills of their own) use the ransomware operator's infrastructure to extort money from victims. \n\nRead more in m\u2026",
+    "url": "https://www.fortra.com/blog/ransomhouse-ransomware-what-you-need-know",
+    "urlToImage": "https://www.fortra.com/sites/default/files/styles/og_image/public/2025-04/ransomhouse.jpg?itok=f8_7nbyN",
+    "publishedAt": "2025-04-15T16:20:09Z",
+    "content": "What is RansomHouse?\r\nRansomHouse is a cybercrime operation that follows a Ransomware-as-a-Service (RaaS) business model, where affiliates (who do not require technical skills of their own) use the r\u2026 [+3407 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Critical Apache Roller flaw allows to retain unauthorized access even after a password change",
+    "description": "A critical flaw (CVE-2025-24859, CVSS 10) in Apache Roller lets attackers keep access even after password changes. All versions \u22646.1.4 are affected. A critical vulnerability, tracked as CVE-2025-24859 (CVSS score of 10.0), affects the\u00a0Apache Roller\u00a0open-sourc\u2026",
+    "url": "https://securityaffairs.com/176577/security/critical-apache-roller-flaw-allows-to-retain-unauthorized-access-even-after-a-password-change.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2021/10/Apache-foundation.jpg",
+    "publishedAt": "2025-04-15T14:05:11Z",
+    "content": "Critical Apache Roller flaw allows to retain unauthorized access even after a password change\r\n\u00a0|\u00a0Meta will use public EU user data to train its AI models\r\n\u00a0|\u00a0Hertz disclosed a data breach following \u2026 [+156136 chars]"
+  },
+  {
+    "source": {
+      "id": "techradar",
+      "name": "TechRadar"
+    },
+    "author": "rowan.davies@futurenet.com (Rowan Davies)",
+    "title": "Google Photos is getting a big overhaul - here are 3 new features you should look out for",
+    "description": "Google is really paying attention to its photo and video sharing service - these 3 new features are its recent standouts.",
+    "url": "https://www.techradar.com/computing/software/google-photos-is-getting-a-big-overhaul-here-are-3-new-features-you-should-look-out-for",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/TzsY7WT8RQduJcxHC7beuV.jpg",
+    "publishedAt": "2025-04-15T14:00:00Z",
+    "content": "<ul><li>As well as making room for more Gemini, Google has been updating its photo and video sharing service </li><li>One of the new features includes Google Photos integration in the Gemini app </li\u2026 [+3496 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Meta will use public EU user data to train its AI models",
+    "description": "Meta announced that it will use public EU user data to train AI, resuming plans paused last year over Irish data protection concerns. Meta will start training its AI models using public data from adults in the EU, after pausing the plan last year over data pr\u2026",
+    "url": "https://securityaffairs.com/176569/digital-id/meta-will-use-public-eu-user-data-to-train-its-ai-models.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2022/04/Meta-logo.png",
+    "publishedAt": "2025-04-15T13:24:42Z",
+    "content": "Meta will use public EU user data to train its AI models\r\n\u00a0|\u00a0Hertz disclosed a data breach following 2024 Cleo zero-day attack\r\n\u00a0|\u00a0Gladinet flaw CVE-2025-30406 actively exploited in the wild\r\n\u00a0|\u00a0New \u2026 [+156038 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Theregister.com"
+    },
+    "author": "Connor Jones",
+    "title": "Where it Hertz: Customer data driven off in Cleo attacks",
+    "description": "Car hire biz takes your privacy seriously, though\nCar hire giant Hertz has confirmed that customer information was stolen during the zero-day data raids on Cleo file transfer products last year.\u2026",
+    "url": "https://www.theregister.com/2025/04/15/hertz_cleo_customer_data/",
+    "urlToImage": "https://regmedia.co.uk/2021/01/14/car.jpg",
+    "publishedAt": "2025-04-15T11:31:11Z",
+    "content": "Car hire giant Hertz has confirmed that customer information was stolen during the zero-day data raids on Cleo file transfer products last year.\r\nA breach notification was issued on Monday on behalf \u2026 [+2279 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Hertz disclosed a data breach following 2024 Cleo zero-day attack",
+    "description": "Hertz Corporation disclosed a data breach after customer data was stolen via Cleo zero-day exploits in late 2024, affecting Hertz, Thrifty, and Dollar brands. Car rental giant Hertz Corporation disclosed a data breach that impacted its Hertz, Thrifty, and Dol\u2026",
+    "url": "https://securityaffairs.com/176562/data-breach/hertz-disclosed-a-data-breach-following-2024-cleo-zero-day-attack.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/01/image-25.png",
+    "publishedAt": "2025-04-15T08:23:39Z",
+    "content": "Hertz disclosed a data breach following 2024 Cleo zero-day attack\r\n\u00a0|\u00a0Gladinet flaw CVE-2025-30406 actively exploited in the wild\r\n\u00a0|\u00a0New malware ResolverRAT targets healthcare, pharmaceutical firms\r\u2026 [+155977 chars]"
+  },
+  {
+    "source": {
+      "id": "cbc-news",
+      "name": "CBC News"
+    },
+    "author": null,
+    "title": "B.C. health-care workers' CRA accounts hacked after 28,000 social insurance numbers stolen in data breach",
+    "description": "Imposters hacked into B.C. health-care workers\u2019 CRA accounts after a massive breach of employees\u2019 private identification from the B.C. government\u2019s Interior Health authority, which runs hospitals and medical facilities in the eastern part of the province, The\u2026",
+    "url": "https://www.cbc.ca/news/canada/interior-health-data-breach-canada-revenue-agency-accounts-hacked-1.7507321",
+    "urlToImage": "https://i.cbc.ca/1.6821290.1682390977!/cumulusImage/httpImage/image.jpg_gen/derivatives/16x9_1180/dr-anna-wolak.jpg?im=Resize%3D620",
+    "publishedAt": "2025-04-15T08:00:00Z",
+    "content": "Nurse Leslie Warner will never forget being taken to her local RCMP detachment in Fernie, B.C., in 2022 and charged in a social security fraud operating out of Alberta.\r\nShe\u00a0says she was fingerprinte\u2026 [+11922 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Gladinet flaw CVE-2025-30406 actively exploited in the wild",
+    "description": "Huntress reports active exploitation of Gladinet CVE-2025-30406 in the wild, affecting seven organizations and 120 endpoints. Security researchers at Huntress warn of attacks in the wild exploiting a critical vulnerability, tracked as CVE-2025-30406, in Gladi\u2026",
+    "url": "https://securityaffairs.com/176552/hacking/gladinet-flaw-cve-2025-30406-actively-exploited-in-the-wild.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-27.png",
+    "publishedAt": "2025-04-15T07:05:21Z",
+    "content": "Gladinet flaw CVE-2025-30406 actively exploited in the wild\r\n\u00a0|\u00a0New malware ResolverRAT targets healthcare, pharmaceutical firms\r\n\u00a0|\u00a0Malicious NPM packages target PayPal users\r\n\u00a0|\u00a0Tycoon2FA phishing \u2026 [+155907 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "New malware \u2018ResolverRAT\u2019 targets healthcare, pharmaceutical firms",
+    "description": "New malware \u2018ResolverRAT\u2019 is targeting healthcare and pharmaceutical firms, using advanced capabilities to steal sensitive data. Morphisec researchers discovered a new malware dubbed \u2018ResolverRAT\u2019 that is targeting healthcare and pharmaceutical firms, using a\u2026",
+    "url": "https://securityaffairs.com/176537/malware/new-malware-resolverrat-targets-healthcare-pharmaceutical-firms.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-26.png",
+    "publishedAt": "2025-04-14T18:46:27Z",
+    "content": "New malware ResolverRAT targets healthcare, pharmaceutical firms\r\n\u00a0|\u00a0Malicious NPM packages target PayPal users\r\n\u00a0|\u00a0Tycoon2FA phishing kit rolled out significant updates\r\n\u00a0|\u00a0South African telecom pro\u2026 [+155843 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Zack Whittaker",
+    "title": "Hertz says customers' personal data and driver's licenses stolen in data breach | TechCrunch",
+    "description": "The car rental giant attributed the breach to Cleo, whose customers had data stolen by a ransomware gang in 2024.",
+    "url": "https://techcrunch.com/2025/04/14/hertz-says-customers-personal-data-and-drivers-licenses-stolen-in-data-breach/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/01/GettyImages-1349024965.jpg?resize=1200,824",
+    "publishedAt": "2025-04-14T18:03:52Z",
+    "content": "Car rental giant Hertz has begun notifying its customers of a data breach that included their personal information and driver\u2019s licenses.\r\nThe rental company, which also owns the Dollar and Thrifty b\u2026 [+2487 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Malicious NPM packages target PayPal users",
+    "description": "Threat actors deploy malicious NPM packages to steal PayPal credentials and hijack cryptocurrency transfers. Fortinet\u00a0researchers discovered\u00a0multiple malicious NPM packages that are used to target PayPal users. The packages were uploaded to the repository in \u2026",
+    "url": "https://securityaffairs.com/176530/security/malicious-npm-packages-to-steal-paypal-credentials.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-25.png",
+    "publishedAt": "2025-04-14T14:08:19Z",
+    "content": "Malicious NPM packages target PayPal users\r\n\u00a0|\u00a0Tycoon2FA phishing kit rolled out significant updates\r\n\u00a0|\u00a0South African telecom provider Cell C disclosed a data breach following a cyberattack\r\n\u00a0|\u00a0SECU\u2026 [+155774 chars]"
+  },
+  {
+    "source": {
+      "id": "techradar",
+      "name": "TechRadar"
+    },
+    "author": "Sead Fadilpa\u0161i\u0107",
+    "title": "Top US lab testing firm hit with major data leak, exposes health info on 1.6 million users",
+    "description": "LSC confirms data breach in a press release.",
+    "url": "https://www.techradar.com/pro/security/top-us-lab-testing-firm-hit-with-major-data-leak-exposes-health-info-on-1-6-million-users",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/fr7pzotQyRtsogoiFa5mk4-1200-80.jpg",
+    "publishedAt": "2025-04-14T13:03:00Z",
+    "content": "<ul><li>Laboratory Services Cooperative confirmed suffering a data breach in October 2024</li><li>An investigation uncovered that the crooks stole sensitive data</li><li>The information has not yet s\u2026 [+2380 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Tycoon2FA phishing kit rolled out significant updates",
+    "description": "The operators of the Phishing-as-a-Service (PhaaS) platform Tycoon2FA have rolled out significant updates to enhance its evasion capabilities. Tycoon2FA, a phishing kit discovered in 2023 by cybersecurity firm Sekoia, was recently updated to improve its evasi\u2026",
+    "url": "https://securityaffairs.com/176521/cyber-crime/tycoon2fa-phishing-kit-rolled-out-significant-updates.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-24.png",
+    "publishedAt": "2025-04-14T08:38:52Z",
+    "content": "Tycoon2FA phishing kit rolled out significant updates\r\n\u00a0|\u00a0South African telecom provider Cell C disclosed a data breach following a cyberattack\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 41\r\n\u00a0|\u00a0Se\u2026 [+155727 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Bitdefender.com"
+    },
+    "author": "Graham Cluley",
+    "title": "Medusa ransomware gang claims to have hacked NASCAR",
+    "description": "The Medusa ransomware-as-a-service (RaaS) claims to have compromised the computer systems of NASCAR, the United States' National Association for Stock Car Auto Racing, and made off with more than 1TB of data.",
+    "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/medusa-ransomware-hacked-nascar",
+    "urlToImage": "https://blogapp.bitdefender.com/hotforsecurity/content/images/2025/04/nascar.jpeg",
+    "publishedAt": "2025-04-14T07:13:45Z",
+    "content": "The Medusa ransomware-as-a-service (RaaS) claims to have compromised the computer systems of NASCAR, the United States' National Association for Stock Car Auto Racing, and made off with more than 1TB\u2026 [+2320 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "South African telecom provider Cell C disclosed a data breach following a cyberattack",
+    "description": "Cell C, one of the biggest telecom providers in South Africa confirms a data breach following a 2024 cyberattack. Cell C is the fourth-largest mobile network operator in South Africa, ,after Vodacom, MTN, and Telkom. The company founded in 2001 offers prepaid\u2026",
+    "url": "https://securityaffairs.com/176509/data-breach/south-african-telecom-provider-cell-c-disclosed-a-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-23.png",
+    "publishedAt": "2025-04-14T05:27:25Z",
+    "content": "South African telecom provider Cell C disclosed a data breach following a cyberattack\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 41\r\n\u00a0|\u00a0Security Affairs newsletter Round 519 by Pierluigi Paganini \u2026 [+155669 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 41",
+    "description": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape Lazarus Expands Malicious npm Campaign: 11 New Packages Add Malware Loaders and Bitbucket Payloads BadBazaar: iOS and Android\u2026",
+    "url": "https://securityaffairs.com/176503/malware/security-affairs-malware-newsletter-round-41.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/07/SecurityAffairs-malware-newsletter-2.png",
+    "publishedAt": "2025-04-13T11:39:10Z",
+    "content": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 41\r\n\u00a0|\u00a0Security Affairs newsletter Round 519 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0China admitted its role in Volt Typhoon cyberattacks on U.S. inf\u2026 [+155579 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Security Affairs newsletter Round 519 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+    "description": "A new round of the weekly SecurityAffairs newsletter arrived! Every week the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. Symbolic Link \u2026",
+    "url": "https://securityaffairs.com/176494/breaking-news/security-affairs-newsletter-round-519-by-pierluigi-paganini-international-edition.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/03/newsletter.png",
+    "publishedAt": "2025-04-13T11:23:40Z",
+    "content": "Security Affairs newsletter Round 519 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0China admitted its role in Volt Typhoon cyberattacks on U.S. infrastructure\r\n\u00a0|\u00a0Symbolic Link trick lets attacker\u2026 [+155530 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "China admitted its role in Volt Typhoon cyberattacks on U.S. infrastructure",
+    "description": "China admitted in a secret meeting with U.S. officials that it conducted Volt Typhoon cyberattacks on U.S. infrastructure, WSJ reports. China reportedly admitted in a secret meeting with U.S. officials that it carried out cyberattacks on U.S. infrastructure, \u2026",
+    "url": "https://securityaffairs.com/176485/apt/china-admitted-its-role-in-volt-typhoon-cyberattacks-on-u-s-infrastructure.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2014/07/Chinese-hackers-espionage.jpg",
+    "publishedAt": "2025-04-13T07:57:27Z",
+    "content": "China admitted its role in Volt Typhoon cyberattacks on U.S. infrastructure\r\n\u00a0|\u00a0Symbolic Link trick lets attackers bypass FortiGate patches, Fortinet warns\r\n\u00a0|\u00a0Attackers are exploiting recently discl\u2026 [+155444 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Symbolic Link trick lets attackers bypass FortiGate patches, Fortinet warns",
+    "description": "Fortinet warns attackers can keep read-only access to FortiGate devices even after the original vulnerability is patched. Fortinet warns that threat actors can retain read-only access to FortiGate devices even after the original vulnerability used for the bre\u2026",
+    "url": "https://securityaffairs.com/176473/hacking/symbolic-link-trick-lets-attackers-bypass-fortigate-patches-fortinet-warns.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2019/11/fortinet-logo.jpg",
+    "publishedAt": "2025-04-12T17:17:30Z",
+    "content": "Symbolic Link trick lets attackers bypass FortiGate patches, Fortinet warns\r\n\u00a0|\u00a0Attackers are exploiting recently disclosed OttoKit\u00a0WordPress plugin flaw\r\n\u00a0|\u00a0Laboratory Services Cooperative data brea\u2026 [+155364 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Attackers are exploiting recently disclosed OttoKit\u00a0WordPress plugin flaw",
+    "description": "Threat actors are exploiting a vulnerability in\u00a0the OttoKit\u00a0WordPress plugin, a few hours after public disclosure. Threat actors are exploiting a recently discovered vulnerability, tracked as\u00a0CVE-2025-3102\u00a0(CVSS score of 8.1) in\u00a0the OttoKit\u00a0WordPress plugin (\u2026",
+    "url": "https://securityaffairs.com/176461/security/ottokit-wordpress-plugin-flaw-exploitation.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-22.png",
+    "publishedAt": "2025-04-12T10:43:21Z",
+    "content": "Attackers are exploiting recently disclosed OttoKit\u00a0WordPress plugin flaw\r\n\u00a0|\u00a0Laboratory Services Cooperative data breach impacts 1.6 Million People\r\n\u00a0|\u00a0Palo Alto warns of brute-force login attempts \u2026 [+155284 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Laboratory Services Cooperative data breach impacts 1.6 Million People",
+    "description": "Laboratory Services Cooperative discloses a data breach from October 2024 that exposed personal and medical info of 1.6 million individuals. Laboratory Services Cooperative disclosed a data breach that impacted the personal and medical information of 1.6 mill\u2026",
+    "url": "https://securityaffairs.com/176451/data-breach/laboratory-services-cooperative-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2012/04/data-breach.jpg",
+    "publishedAt": "2025-04-11T21:48:55Z",
+    "content": "Laboratory Services Cooperative data breach impacts 1.6 Million People\r\n\u00a0|\u00a0Palo Alto warns of brute-force login attempts on PAN-OS GlobalProtect gateways indicating possible upcoming attacks\r\n\u00a0|\u00a0Gama\u2026 [+155206 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "BleepingComputer"
+    },
+    "author": "Bill Toulas",
+    "title": "Western Sydney University discloses security breaches, data leak",
+    "description": "Western Sydney University (WSU) announced two security incidents that exposed personal information belonging to members of its community. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/western-sydney-university-discloses-security-breaches-data-leak/",
+    "urlToImage": "https://www.bleepstatic.com/content/hl-images/2024/05/21/logo.jpg",
+    "publishedAt": "2025-04-11T16:29:52Z",
+    "content": "Western Sydney University (WSU) announced two security incidents that exposed personal information belonging to members of its community.\r\nWSU is a prominent Australian institution offering various u\u2026 [+2697 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Palo Alto warns of brute-force login attempts on PAN-OS GlobalProtect gateways indicating possible upcoming attacks",
+    "description": "Experts warn of brute-force login attempts on PAN-OS GlobalProtect gateways following increased scanning activity on its devices. Palo Alto Networks reports brute-force login attempts on PAN-OS GlobalProtect gateways. The security firm pointed out that no kno\u2026",
+    "url": "https://securityaffairs.com/176446/hacking/brute-force-login-attempts-on-pan-os-globalprotect.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-21.png",
+    "publishedAt": "2025-04-11T14:13:16Z",
+    "content": "Palo Alto warns of brute-force login attempts on PAN-OS GlobalProtect gateways indicating possible upcoming attacks\r\n\u00a0|\u00a0Gamaredon targeted the military mission of a Western country based in Ukraine\r\n\u2026 [+155131 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Gamaredon targeted the military mission of a Western country based in Ukraine",
+    "description": "Gamaredon targeted a foreign military mission in Ukraine with updated GammaSteel malware on Feb 26, 2025, per Symantec. Symantec Threat Hunter researchers reported that the Russia-linked APT group Gamaredon (a.k.a. Shuckworm,\u00a0Armageddon, Primitive Bear,\u00a0ACTIN\u2026",
+    "url": "https://securityaffairs.com/176433/apt/gamaredon-targeted-the-military-mission-of-a-western-country-based-in-ukraine.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2021/02/Ukraine.jpg",
+    "publishedAt": "2025-04-11T06:55:25Z",
+    "content": "Gamaredon targeted the military mission of a Western country based in Ukraine\r\n\u00a0|\u00a0U.S. CISA adds Linux Kernel\u00a0flaws to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0AkiraBot: AI-Powered spam bot ev\u2026 [+155011 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "U.S. CISA adds Linux Kernel\u00a0flaws to its Known Exploited Vulnerabilities catalog",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Linux Kernel\u00a0flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added Linux Kernel\u00a0flaws, respectively tracked as CVE-2024-53\u2026",
+    "url": "https://securityaffairs.com/176427/hacking/u-s-cisa-adds-linux-kernel-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+    "publishedAt": "2025-04-10T18:25:59Z",
+    "content": "U.S. CISA adds Linux Kernel\u00a0flaws to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0AkiraBot: AI-Powered spam bot evades CAPTCHA to target 80,000+ websites\r\n\u00a0|\u00a0An APT group exploited ESET flaw to ex\u2026 [+154929 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "AkiraBot: AI-Powered spam bot evades CAPTCHA to target 80,000+ websites",
+    "description": "AkiraBot, a CAPTCHA-evading Python framework, has spammed over 80,000 websites with AI-generated messages, targeting small and medium-sized businesses. SentinelOne\u2019s SentinelLabs researchers warn that AkiraBot, a spam framework, targets websites\u2019 chats and co\u2026",
+    "url": "https://securityaffairs.com/176415/cyber-crime/akirabot-ai-powered-spam-bot-evades-captcha-to-target-80000-websites.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-20.png",
+    "publishedAt": "2025-04-10T13:37:21Z",
+    "content": "AkiraBot: AI-Powered spam bot evades CAPTCHA to target 80,000+ websites\r\n\u00a0|\u00a0An APT group exploited ESET flaw to execute malware\r\n\u00a0|\u00a0Oracle confirms the hack of two obsolete servers hacked. No Oracle \u2026 [+154844 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "An APT group exploited ESET flaw to execute malware",
+    "description": "At least one APT group has exploited a vulnerability in ESET software to stealthily execute malware, bypassing security measures. Kaspersky researchers reported that an APT group, tracked as\u00a0ToddyCat, has exploited a vulnerability in ESET software to stealthi\u2026",
+    "url": "https://securityaffairs.com/176364/security/an-apt-group-exploited-eset-flaw-to-execute-malware.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-19.png",
+    "publishedAt": "2025-04-10T10:47:51Z",
+    "content": "An APT group exploited ESET flaw to execute malware\r\n\u00a0|\u00a0Oracle confirms the hack of two obsolete servers hacked. No Oracle Cloud systems or customer data were affected\r\n\u00a0|\u00a0National Social Security Fu\u2026 [+154768 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Oracle confirms the hack of two obsolete servers hacked. No Oracle Cloud systems or customer data were affected",
+    "description": "Oracle confirmed a hacker stole credentials from two obsolete servers but said no Oracle Cloud systems or customer data were affected. Oracle confirmed a hacker stole and leaked credentials from two obsolete servers, but said no Oracle Cloud systems or custom\u2026",
+    "url": "https://securityaffairs.com/176398/data-breach/oracle-confirms-the-hack-of-two-obsolete-servers-hacked-no-oracle-cloud-systems-or-customer-data-were-affected.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-18.png",
+    "publishedAt": "2025-04-10T09:34:14Z",
+    "content": "Oracle confirms the hack of two obsolete servers hacked. No Oracle Cloud systems or customer data were affected\r\n\u00a0|\u00a0National Social Security Fund of Morocco Suffers Data Breach\r\n\u00a0|\u00a0Critical Fortinet \u2026 [+154712 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "National Social Security Fund of Morocco Suffers Data Breach",
+    "description": "Threat actor \u2018Jabaroot\u2019 claims breach of National Social Security Fund of Morocco, aiming to steal large volumes of sensitive citizen data. Resecurity has identified a threat actor targeting government systems in Morocco with the goal of exfiltrating large vo\u2026",
+    "url": "https://securityaffairs.com/176388/security/national-social-security-fund-of-morocco-suffers-data-breach.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/signal-2025-04-09-201147_002.jpeg",
+    "publishedAt": "2025-04-09T18:21:09Z",
+    "content": "National Social Security Fund of Morocco Suffers Data Breach\r\n\u00a0|\u00a0Critical Fortinet FortiSwitch flaw allows remote attackers to change admin passwords\r\n\u00a0|\u00a0The US Treasurys OCC disclosed an undetected \u2026 [+154596 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Critical Fortinet FortiSwitch flaw allows remote attackers to change admin passwords",
+    "description": "Fortinet addressed a critical vulnerability in its FortiSwitch devices that can be exploited to change administrator passwords remotely. Fortinet has released security updates to address a critical vulnerability, tracked as CVE-2024-48887 (CVSS score 9.8), in\u2026",
+    "url": "https://securityaffairs.com/176380/security/fortinet-fortiswitch-flaw.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2019/11/fortinet-logo.jpg",
+    "publishedAt": "2025-04-09T17:50:02Z",
+    "content": "Critical Fortinet FortiSwitch flaw allows remote attackers to change admin passwords\r\n\u00a0|\u00a0The US Treasurys OCC disclosed an undetected major email breach for over a year\r\n\u00a0|\u00a0U.S. CISA adds Gladinet Ce\u2026 [+154531 chars]"
+  },
+  {
+    "source": {
+      "id": "newsweek",
+      "name": "Newsweek"
+    },
+    "author": "Saajan Jogia",
+    "title": "Cyber Attack Rumors Swirl as NASCAR Faces $4 Million Ransom Demand",
+    "description": "Medusa has allegedly threatened NASCAR that it would release sensitive information, including contacts, if their demands are not met.",
+    "url": "https://www.newsweek.com/sports/racing/cyber-attack-rumors-swirl-nascar-faces-4-million-ransom-demand-2057391",
+    "urlToImage": "https://d.newsweek.com/en/full/2623975/darlington.jpg",
+    "publishedAt": "2025-04-09T17:47:22Z",
+    "content": "A report from Hackread.com states that NASCAR has been targeted by the Medusa ransomware gang, which demands a staggering $4 million ransom. NASCAR was reportedly listed on the gang's dark web leak s\u2026 [+2825 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Infosecurity Magazine"
+    },
+    "author": "Alessandro  Mascellino",
+    "title": "WK Kellogg Confirms Data Breach Tied to Cleo Software Exploit",
+    "description": "WK Kellogg breach exposed employee data after attackers exploited flaws in Cleo software",
+    "url": "https://www.infosecurity-magazine.com/news/wk-kellogg-confirms-data-breach/",
+    "urlToImage": "https://assets.infosecurity-magazine.com/webpage/og/37f400b8-28aa-470b-93a2-9538ff6cd841.jpg",
+    "publishedAt": "2025-04-09T15:00:00Z",
+    "content": "Sensitive employee data at WK Kellogg Co. has been exposed in a cybersecurity breach after attackers exploited a vulnerability in file transfer software used by the company.\r\nThe breach, which occurr\u2026 [+2373 chars]"
+  },
+  {
+    "source": {
+      "id": "fox-news",
+      "name": "Fox News"
+    },
+    "author": "Kurt Knutsson, CyberGuy Report",
+    "title": "200 million social media records leaked in major X data breach",
+    "description": "X hit with massive data breach with 200 million records leaked, including emails. Tech expert Kurt \u201cCyberGuy\" Knutsson offers seven tips to help protect yourself.",
+    "url": "https://www.foxnews.com/tech/200-million-social-media-records-leaked-major-x-data-breach",
+    "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2025/04/1-x-faces-largest-social-media-data-breach-ever-as-200-million-records-leaked-intro.jpg",
+    "publishedAt": "2025-04-09T14:00:20Z",
+    "content": "X, formerly known as Twitter, has been making headlines recently, with Elon Musk claiming that hackers have been trying to disrupt the platform. However, the most recent news involving the social med\u2026 [+8983 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "The US Treasury\u2019s OCC disclosed an undetected major email breach for over a year",
+    "description": "The US Office of the Comptroller of the Currency (OCC) disclosed a major email breach compromising 100 accounts, undetected for over a year. The US Treasury\u2019s Office of the Comptroller of the Currency (OCC) disclosed an undetected major email breach for over \u2026",
+    "url": "https://securityaffairs.com/176373/data-breach/the-us-treasurys-occ-disclosed-an-undetected-major-email-breach-for-over-a-year.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/03/us-department-of-treasury.jpg",
+    "publishedAt": "2025-04-09T12:35:11Z",
+    "content": "The US Treasurys OCC disclosed an undetected major email breach for over a year\r\n\u00a0|\u00a0U.S. CISA adds Gladinet CentreStack and ZTA Microsoft Windows Common Log File System (CLFS) Driver flaws to its Kno\u2026 [+154442 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "U.S. CISA adds Gladinet CentreStack and ZTA Microsoft Windows Common Log File System (CLFS) Driver flaws to its Known Exploited Vulnerabilities catalog",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Gladinet CentreStack and ZTA Microsoft Windows Common Log File System (CLFS) Driver flaws to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agen\u2026",
+    "url": "https://securityaffairs.com/176366/hacking/u-s-cisa-adds-gladinet-centrestack-and-zta-microsoft-windows-common-log-file-system-clfs-driver-flaws-to-its-known-exploited-vulnerabilities-catalog.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+    "publishedAt": "2025-04-09T11:35:22Z",
+    "content": "U.S. CISA adds Gladinet CentreStack and ZTA Microsoft Windows Common Log File System (CLFS) Driver flaws to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0WhatsApp fixed a spoofing flaw that could e\u2026 [+154358 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "HackRead"
+    },
+    "author": "Waqas",
+    "title": "Medusa Ransomware Claims NASCAR Breach in Latest Attack",
+    "description": "Medusa ransomware hits NASCAR, demands $4M ransom, leaks internal files. Group also claims Bridgebank, McFarland, and Pulse Urgent Care.",
+    "url": "https://hackread.com/medusa-ransomware-claims-nascar-breach-latest-attack/",
+    "urlToImage": "https://hackread.com/wp-content/uploads/2025/04/medusa-ransomware-claims-nascar-breach-latest-attack-1.jpg",
+    "publishedAt": "2025-04-08T20:48:10Z",
+    "content": "The Medusa ransomware gang has added another high-profile name to its growing list of victims. Earlier today, the group listed NASCAR (National Association for Stock Car Auto Racing) on its dark web \u2026 [+2336 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CNET"
+    },
+    "author": "Geoff Williams",
+    "title": "Afraid of a Data Breach? Lock Your Social Security Number to Protect Your Identity",
+    "description": "Protecting yourself from cybercriminals doesn't have to be costly. You can lock your Social Security number for free.",
+    "url": "https://www.cnet.com/personal-finance/afraid-of-a-data-breach-lock-your-social-security-number-to-protect-your-identity/",
+    "urlToImage": "https://www.cnet.com/a/img/resize/d6e5fc66736343a6df414f7040dc97634d0d611f/hub/2024/11/13/bc84dfc6-7761-4475-a524-fcf2f1c9bf1d/socialsecuritylock.png?auto=webp&fit=crop&height=675&width=1200",
+    "publishedAt": "2025-04-08T19:06:39Z",
+    "content": "Your Social Security number is used to identify you in a variety of ways from filing your tax return, to applying for a job or opening a new line of credit. This makes it a target for identity thieve\u2026 [+4500 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Forbes"
+    },
+    "author": "Alex Vakulov, Contributor, \n Alex Vakulov, Contributor\n https://www.forbes.com/sites/alexvakulov/",
+    "title": "Clop Ransomware Hack Of WK Kellogg Shows Growing Threat To Your Data",
+    "description": "Clop ransomware breached WK Kellogg and stole sensitive data. Find out how it affects you and discover smart, simple steps to keep your personal info safe.",
+    "url": "https://www.forbes.com/sites/alexvakulov/2025/04/08/clop-ransomware-hack-of-wk-kellogg-shows-growing-threat-to-your-data/",
+    "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67f552096a8a45398f98cf58/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    "publishedAt": "2025-04-08T16:57:45Z",
+    "content": "RANSOMWARE digital text, word, data security threat. Ransomware concept, banner. 3D render\r\ngetty\r\nToday, personal information flows through countless digital systems, and a single vulnerability can \u2026 [+4893 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "WhatsApp fixed a spoofing flaw that could enable Remote Code Execution",
+    "description": "WhatsApp addressed a flaw, tracked as CVE-2025-30401, that could allow attackers to trick users and enable remote code execution. WhatsApp released a security update to address a vulnerability, tracked as CVE-2025-30401, that could let attackers trick users a\u2026",
+    "url": "https://securityaffairs.com/176357/security/whatsapp-fixed-a-spoofing-flaw-that-could-enable-remote-code-execution.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2014/07/whatsapp.jpg",
+    "publishedAt": "2025-04-08T14:25:07Z",
+    "content": "WhatsApp fixed a spoofing flaw that could enable Remote Code Execution\r\n\u00a0|\u00a0Everest ransomware groups Tor leak site offline after a defacement\r\n\u00a0|\u00a0Google fixed two actively exploited Android zero-days\u2026 [+154202 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "HackRead"
+    },
+    "author": "Waqas",
+    "title": "HellCat Ransomware Hits 4 Firms using Infostealer-Stolen Jira Credentials",
+    "description": "HellCat ransomware hits 4 companies by exploiting Jira credentials stolen through infostealer malware, continuing their global attack spree.",
+    "url": "https://hackread.com/hellcat-ransomware-firms-infostealer-stolen-jira-credentials/",
+    "urlToImage": "https://hackread.com/wp-content/uploads/2025/04/hellcat-ransomware-firms-infostealer-stolen-jira-credentials-2.jpg",
+    "publishedAt": "2025-04-08T12:51:19Z",
+    "content": "Cybersecurity researchers at Hudson Rock have identified a new wave of cyber attacks by the HellCat ransomware group, this time targeting four companies across the United States and Europe. The commo\u2026 [+3965 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Everest ransomware group\u2019s Tor leak site offline after a defacement",
+    "description": "The Tor leak site of the Everest ransomware group went offline after being hacked and defaced over the weekend. The Everest ransomware gang\u2019s darknet site went offline after being hacked and defaced, with victim listings replaced by the following message. \u201cDo\u2026",
+    "url": "https://securityaffairs.com/176345/cyber-crime/everest-ransomware-groups-tor-leak-site-offline-after-a-defacement.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2019/06/ransomware.jpg",
+    "publishedAt": "2025-04-08T09:55:11Z",
+    "content": "Everest ransomware groups Tor leak site offline after a defacement\r\n\u00a0|\u00a0Google fixed two actively exploited Android zero-days\r\n\u00a0|\u00a0U.S. CISA adds Ivanti Connect Secure, Policy Secure and ZTA Gateways f\u2026 [+154127 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Google fixed two actively exploited Android zero-days",
+    "description": "Google addressed 62 vulnerabilities with the release of Android \u2018s April 2025 security update, including two actively exploited zero-days. Google released Android \u2018s April 2025 security updates to address 62 vulnerabilities, including two zero-day vulnerabili\u2026",
+    "url": "https://securityaffairs.com/176337/hacking/google-fixed-two-actively-exploited-android-zero-days.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2022/02/Android-security.png",
+    "publishedAt": "2025-04-08T07:29:45Z",
+    "content": "Google fixed two actively exploited Android zero-days\r\n\u00a0|\u00a0U.S. CISA adds Ivanti Connect Secure, Policy Secure and ZTA Gateways flaw to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0A member of the \u2026 [+154056 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "U.S. CISA adds Ivanti Connect Secure, Policy Secure and ZTA Gateways flaw to its Known Exploited Vulnerabilities catalog",
+    "description": "U.S. Cybersecurity and Infrastructure Security Agency (CISA) adds Ivanti Connect Secure, Policy Secure and ZTA Gateways flaw to its Known Exploited Vulnerabilities catalog. The U.S. Cybersecurity and Infrastructure Security Agency (CISA)\u00a0added an Apache Tomca\u2026",
+    "url": "https://securityaffairs.com/176332/security/u-s-cisa-adds-ivanti-connect-secure-policy-secure-and-zta-gateways-flaw-to-its-known-exploited-vulnerabilities-catalog-2.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2020/07/CISA.jpeg",
+    "publishedAt": "2025-04-07T19:39:30Z",
+    "content": "U.S. CISA adds Ivanti Connect Secure, Policy Secure and ZTA Gateways flaw to its Known Exploited Vulnerabilities catalog\r\n\u00a0|\u00a0A member of the Scattered Spider cybercrime group pleads guilty\r\n\u00a0|\u00a0The co\u2026 [+153998 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "BleepingComputer"
+    },
+    "author": "Sergiu Gatlan",
+    "title": "Everest ransomware's dark web leak site defaced, now offline",
+    "description": "The\u00a0dark web leak site\u00a0of the\u00a0Everest ransomware gang has apparently been hacked over the weekend by an unknown attacker and is now offline. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/everest-ransomwares-dark-web-leak-site-defaced-now-offline/",
+    "urlToImage": "https://www.bleepstatic.com/content/hl-images/2021/12/28/hacker.jpg",
+    "publishedAt": "2025-04-07T18:30:26Z",
+    "content": "The dark web leak site of the Everest ransomware gang has apparently been hacked over the weekend by an unknown attacker and is now offline.\r\nThe unknown attacker replaced the website's contents with\u2026 [+1990 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "A member of the Scattered Spider cybercrime group pleads guilty",
+    "description": "A 20-year-old man linked to the Scattered Spider cybercrime group has pleaded guilty to charges filed in Florida and California. Noah Urban, a 20-year-old from Palm Coast, pleaded guilty to conspiracy, wire fraud, and identity theft in two federal cases, one \u2026",
+    "url": "https://securityaffairs.com/176323/cyber-crime/scattered-spider-cybercrime-group-member-pleaded-guilty.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-16.png",
+    "publishedAt": "2025-04-07T13:48:11Z",
+    "content": "A member of the Scattered Spider cybercrime group pleads guilty\r\n\u00a0|\u00a0The controversial case of the threat actor EncryptHub\r\n\u00a0|\u00a0PoisonSeed Campaign uses stolen email credentials to spread crypto seed s\u2026 [+153873 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Cisa.gov"
+    },
+    "author": "CISA",
+    "title": "Vulnerability Summary for the Week of March 31, 2025",
+    "description": "High Vulnerabilities\r\n\n<table>\n\n<tr>\n<th>PrimaryVendor -- Product</th>\n<th>Description</th>\n<th>Published</th>\n<th>CVSS Score</th>\n<th>Source Info</th>\n</tr>\n\r\n\n\n<tr>\n<td>Aboobacker.--AB Google Map Travel\u00a0</td>\n<td>Cross-Site Request Forgery (CSRF) vulnerabil\u2026",
+    "url": "https://www.cisa.gov/news-events/bulletins/sb25-097",
+    "urlToImage": null,
+    "publishedAt": "2025-04-07T13:26:40Z",
+    "content": "The CISA Vulnerability Bulletin provides a summary of new vulnerabilities that have been recorded in the past week. In some cases, the vulnerabilities in the bulletin may not yet have assigned CVSS s\u2026 [+899 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "The controversial case of the threat actor EncryptHub",
+    "description": "Microsoft credited controversial actor EncryptHub, a lone actor with ties to cybercrime, for reporting two Windows flaws. Microsoft credited the likely lone actor behind the EncryptHub alias (also known as SkorikARI) for reporting two Windows security flaws, \u2026",
+    "url": "https://securityaffairs.com/176251/cyber-crime/the-controversial-case-of-the-threat-actor-encrypthub.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-9.png",
+    "publishedAt": "2025-04-07T13:14:21Z",
+    "content": "The controversial case of the threat actor EncryptHub\r\n\u00a0|\u00a0PoisonSeed Campaign uses stolen email credentials to spread crypto seed scams and and empty wallets\r\n\u00a0|\u00a0EDR-as-a-Service makes the headlines \u2026 [+153805 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "PoisonSeed Campaign uses stolen email credentials to spread crypto seed scams and and empty wallets",
+    "description": "A campaign named PoisonSeed uses stolen CRM and bulk email credentials to send crypto seed scams, aiming to empty victims\u2019 digital wallets. Silent Push researchers warn of a malicious PoisonSeed campaign that uses stolen CRM and bulk email provider credential\u2026",
+    "url": "https://securityaffairs.com/176317/cyber-crime/poisonseed-campaign-uses-stolen-email-credentials-to-spread-crypto-seed-scams-and-and-empty-wallets.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-15.png",
+    "publishedAt": "2025-04-07T11:09:03Z",
+    "content": "PoisonSeed Campaign uses stolen email credentials to spread crypto seed scams and and empty wallets\r\n\u00a0|\u00a0EDR-as-a-Service makes the headlines in the cybercrime landscape\r\n\u00a0|\u00a0Oracle privately notifies \u2026 [+153747 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "EDR-as-a-Service makes the headlines in the cybercrime landscape",
+    "description": "Cybercriminals exploit compromised accounts for EDR-as-a-Service (Emergency Data Requests \u2013 EDR), targeting major platforms According to a detailed analysis conducted by Meridian Group, an increasingly complex and structured phenomenon, commonly referred to a\u2026",
+    "url": "https://securityaffairs.com/176266/cyber-crime/edr-as-a-service-edr-cybercrime.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-10.png",
+    "publishedAt": "2025-04-07T08:19:42Z",
+    "content": "EDR-as-a-Service makes the headlines in the cybercrime landscape\r\n\u00a0|\u00a0Oracle privately notifies Cloud data breach to customers\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 40\r\n\u00a0|\u00a0Security Affairs new\u2026 [+153643 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Oracle privately notifies Cloud data breach to customers",
+    "description": "Oracle confirms a cloud data breach, quietly informing customers while downplaying the impact of the security breach. Oracle confirms a data breach and started informing customers while downplaying the impact of the incident. A threat actor using the moniker \u2026",
+    "url": "https://securityaffairs.com/176278/data-breach/oracle-privately-notifies-cloud-data-breach-to-customers.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-14.png",
+    "publishedAt": "2025-04-06T20:33:53Z",
+    "content": "Oracle privately notifies Cloud data breach to customers\r\n\u00a0|\u00a0SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 40\r\n\u00a0|\u00a0Security Affairs newsletter Round 518 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0Exp\u2026 [+153574 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Outpost24.com"
+    },
+    "author": "akerr",
+    "title": "Unmasking EncryptHub: Help from ChatGPT and Opsec Blunders",
+    "description": "Understand EncryptHub\u2019s cybercrime journey and how he used ChatGPT as an accomplice, uncovering the methods behind his actions.",
+    "url": "https://outpost24.com/blog/unmasking-encrypthub-chatgpt-partner-crime/",
+    "urlToImage": "https://outpost24.com/wp-content/uploads/2023/10/pholder-press-release-unique.png",
+    "publishedAt": "2025-04-06T16:09:58Z",
+    "content": "Written By\r\nThis is the second part of Outpost24s KrakenLabs investigation into EncryptHub, an up-and-coming cybercriminal who has been gaining popularity in recent months and is heavily expanding an\u2026 [+20799 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 40",
+    "description": "Security Affairs Malware newsletter includes a collection of the best articles and research on malware in the international landscape CISA Releases Malware Analysis Report on RESURGE Malware Associated with Ivanti Connect Secure\u00a0\u00a0 Unboxing Anubis: Exploring t\u2026",
+    "url": "https://securityaffairs.com/176244/malware/security-affairs-malware-newsletter-round-40.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/07/SecurityAffairs-malware-newsletter-2.png",
+    "publishedAt": "2025-04-06T11:47:42Z",
+    "content": "SECURITY AFFAIRS MALWARE NEWSLETTER ROUND 40\r\n\u00a0|\u00a0Security Affairs newsletter Round 518 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0Expert used ChatGPT-4o to create a replica of his passport in ju\u2026 [+153513 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Security Affairs newsletter Round 518 by Pierluigi Paganini \u2013 INTERNATIONAL EDITION",
+    "description": "A new round of the weekly SecurityAffairs newsletter arrived! Every week the best security articles from Security Affairs are free in your email box. Enjoy a new round of the weekly SecurityAffairs newsletter, including the international press. A flaw in Veri\u2026",
+    "url": "https://securityaffairs.com/176235/security/security-affairs-newsletter-round-518-by-pierluigi-paganini-international-edition.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/03/newsletter.png",
+    "publishedAt": "2025-04-06T11:40:04Z",
+    "content": "Security Affairs newsletter Round 518 by Pierluigi Paganini INTERNATIONAL EDITION\r\n\u00a0|\u00a0Expert used ChatGPT-4o to create a replica of his passport in just 5 minutes bypassing KYC\r\n\u00a0|\u00a0A flaw in Verizons\u2026 [+153464 chars]"
+  },
+  {
+    "source": {
+      "id": "the-times-of-india",
+      "name": "The Times of India"
+    },
+    "author": "PTI",
+    "title": "Studio Ghibli AI art trend: A privacy nightmare in disguise, experts warn",
+    "description": "AI tools that turn photos into Studio Ghibli-style art have gone viral, but experts warn of serious privacy risks. Hidden data in images, vague terms of service, and potential misuse raise concerns about surveillance, identity fraud, and uninformed data shari\u2026",
+    "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/studio-ghibli-ai-art-trend-a-privacy-nightmare-in-disguise-experts-warn/articleshow/120035607.cms",
+    "urlToImage": "https://img.etimg.com/thumb/msid-120035648,width-1200,height-630,imgsize-28602,overlay-ettech/articleshow.jpg",
+    "publishedAt": "2025-04-06T09:53:04Z",
+    "content": "While netizens are hooked on the viral trend of transforming personal photos into Studio Ghibli-style art using AI tools, experts warn that the trend conceals a darker reality where casual sharing ca\u2026 [+4553 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Expert used ChatGPT-4o to create a replica of his passport in just 5 minutes bypassing KYC",
+    "description": "A researcher used ChatGPT-4o to create a replica of his passport in just five minutes, realistic enough to deceive most automated KYC systems. Polish researcher Borys Musielak (@michuk) used ChatGPT-4o to generate a fake passport in just five minutes. The doc\u2026",
+    "url": "https://securityaffairs.com/176224/security/chatgpt-4o-to-create-a-replica-of-his-passport-in-just-five-minutes.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-8.png",
+    "publishedAt": "2025-04-06T08:19:53Z",
+    "content": "Expert used ChatGPT-4o to create a replica of his passport in just 5 minutes bypassing KYC\r\n\u00a0|\u00a0A flaw in Verizons iOS Call Filter app exposed call records of millions\r\n\u00a0|\u00a0Port of Seattle 's August da\u2026 [+153378 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "A flaw in Verizon\u2019s iOS Call Filter app exposed call records of millions",
+    "description": "A now-patched flaw in Verizon \u2019s iOS Call Filter app exposed call records of millions. No abuse found. Only phone numbers and timestamps were at risk. A now-patched vulnerability in Verizon \u2019s iOS Call Filter app could have been exploited to harvest the call \u2026",
+    "url": "https://securityaffairs.com/176217/hacking/verizon-s-ios-call-filter-app-flaw.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2016/03/verizon-enterprise.jpg",
+    "publishedAt": "2025-04-05T18:59:52Z",
+    "content": "A flaw in Verizons iOS Call Filter app exposed call records of millions\r\n\u00a0|\u00a0Port of Seattle 's August data breach impacted 90,000 people\r\n\u00a0|\u00a0President Trump fired the head of U.S. Cyber Command and N\u2026 [+153283 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Port of Seattle \u2018s August data breach impacted 90,000 people",
+    "description": "Port of Seattle is notifying 90,000 people of a data breach after personal data was stolen in a ransomware attack in August 2024. In August 2024, a cyber attack hit the Port of Seattle, which also operates the Seattle-Tacoma International Airport. The attack \u2026",
+    "url": "https://securityaffairs.com/176205/data-breach/port-of-seattle-august-data-breach-impacted-90000-people.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2024/08/image-38-1024x576.png",
+    "publishedAt": "2025-04-05T10:02:37Z",
+    "content": "Port of Seattle August data breach impacted 90,000 people\r\n\u00a0|\u00a0President Trump fired the head of U.S. Cyber Command and NSA\r\n\u00a0|\u00a0Critical flaw in Apache Parquet's Java Library allows remote code execut\u2026 [+153204 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "BleepingComputer"
+    },
+    "author": "Sergiu Gatlan",
+    "title": "Port of Seattle says ransomware breach impacts 90,000 people",
+    "description": "\u200bPort of Seattle, the U.S. government agency overseeing Seattle's seaport and airport, is notifying roughly 90,000 individuals of a data breach after their personal information was stolen in an August 2024 ransomware attack. [...]",
+    "url": "https://www.bleepingcomputer.com/news/security/port-of-seattle-says-ransomware-breach-impacts-90-000-people/",
+    "urlToImage": "https://www.bleepstatic.com/content/hl-images/2024/09/13/Port-of-Seattle.jpg",
+    "publishedAt": "2025-04-04T17:26:38Z",
+    "content": "\u200bPort of Seattle, the U.S. government agency overseeing Seattle's seaport and airport, is notifying roughly 90,000 individuals of a data breach after their personal information was stolen in an Augus\u2026 [+2966 chars]"
+  },
+  {
+    "source": {
+      "id": "techradar",
+      "name": "TechRadar"
+    },
+    "author": "Sead Fadilpa\u0161i\u0107",
+    "title": "Texas State Bar hit by possible ransomware attack, warns of data breach",
+    "description": "A data breach notification letter is being sent out as data samples leak on the dark web.",
+    "url": "https://www.techradar.com/pro/security/texas-state-bar-hit-by-possible-ransomware-attack-warns-of-data-breach",
+    "urlToImage": "https://cdn.mos.cms.futurecdn.net/U3nMoaJ3iNrFx8Qwkwmw7d-1200-80.jpg",
+    "publishedAt": "2025-04-04T15:27:00Z",
+    "content": "<ul><li>The State Bar of Texas is warning members about a data breach</li><li>It is offering free credit and identity theft monitoring</li><li>INC ransomware claimed responsibility for the attack</li\u2026 [+2223 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "President Trump fired the head of U.S. Cyber Command and NSA",
+    "description": "President Trump fired Gen. Timothy Haugh as head of U.S. Cyber Command and NSA President Donald Trump this week fired Air Force Gen. Timothy Haugh, who served as the head of U.S. Cyber Command and the National Security Agency. Gen. Haugh\u2019s was fired just over\u2026",
+    "url": "https://securityaffairs.com/176196/intelligence/president-trump-fired-the-head-of-u-s-cyber-command-and-nsa.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/01/nsa-spy-on-North-Korea.jpg",
+    "publishedAt": "2025-04-04T13:48:17Z",
+    "content": "President Trump fired the head of U.S. Cyber Command and NSA\r\n\u00a0|\u00a0Critical flaw in Apache Parquet's Java Library allows remote code execution\r\n\u00a0|\u00a0CERT-UA reports attacks in March 2025 targeting Ukrain\u2026 [+153142 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Critical flaw in Apache Parquet\u2019s Java Library allows remote code execution",
+    "description": "Experts warn of a critical vulnerability impacting Apache Parquet\u2019s Java Library that could allow remote code execution. Apache Parquet\u2019s Java Library is a software library for reading and writing Parquet files in the Java programming language. Parquet is a c\u2026",
+    "url": "https://securityaffairs.com/176187/security/apache-parquets-java-library-critical-flaw.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-7.png",
+    "publishedAt": "2025-04-04T10:00:26Z",
+    "content": "Critical flaw in Apache Parquet's Java Library allows remote code execution\r\n\u00a0|\u00a0CERT-UA reports attacks in March 2025 targeting Ukrainian agencies with WRECKSTEEL Malware\r\n\u00a0|\u00a039M secrets exposed: Git\u2026 [+153077 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "CERT-UA reports attacks in March 2025 targeting Ukrainian agencies with WRECKSTEEL Malware",
+    "description": "CERT-UA reported three cyberattacks targeting Ukraine\u2019s state agencies and critical infrastructure to steal sensitive data. The Computer Emergency Response Team of Ukraine (CERT-UA) reported three cyberattacks in March 2025 targeting Ukrainian agencies and in\u2026",
+    "url": "https://securityaffairs.com/176181/cyber-warfare-2/cert-ua-reports-attacks-in-march-2025-targeting-ukrainian-agencies-with-wrecksteel-malware.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-6.png",
+    "publishedAt": "2025-04-04T08:32:24Z",
+    "content": "CERT-UA reports attacks in March 2025 targeting Ukrainian agencies with WRECKSTEEL Malware\r\n\u00a0|\u00a039M secrets exposed: GitHub rolls out new security tools\r\n\u00a0|\u00a0China-linked group UNC5221 exploited Ivanti\u2026 [+152997 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "39M secrets exposed: GitHub rolls out new security tools",
+    "description": "39 Million Secrets Leaked on GitHub in 2024 GitHub found 39M secrets leaked in 2024 and launched new tools to help developers and organizations secure sensitive data in code. Microsoft-owned code hosting platform GitHub announced the discovery of 39 million s\u2026",
+    "url": "https://securityaffairs.com/176170/security/39m-secrets-exposed-github-rolls-out-new-security-tools.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-5.png",
+    "publishedAt": "2025-04-04T06:48:25Z",
+    "content": "39M secrets exposed: GitHub rolls out new security tools\r\n\u00a0|\u00a0China-linked group UNC5221 exploited Ivanti Connect Secure zero-day since mid-March\r\n\u00a0|\u00a0Europol-led operation shuts down CSAM platform Kid\u2026 [+152902 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "China-linked group UNC5221 exploited Ivanti Connect Secure zero-day since mid-March",
+    "description": "Ivanti addressed a critical remote code execution flaw in Connect Secure, which has been exploited since at least mid-March 2025. Ivanti released security updates to address a critical Connect Secure remote code execution vulnerability tracked as\u00a0CVE-2025-224\u2026",
+    "url": "https://securityaffairs.com/176162/apt/china-linked-group-unc5221-exploited-ivanti-connect-secure-zero-day-since-mid-march.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2023/07/Ivanti-logo.png",
+    "publishedAt": "2025-04-03T19:37:57Z",
+    "content": "China-linked group UNC5221 exploited Ivanti Connect Secure zero-day since mid-March\r\n\u00a0|\u00a0Europol-led operation shuts down CSAM platform Kidflix, leading to 79 arrests\r\n\u00a0|\u00a0New Triada Trojan comes prein\u2026 [+152841 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Ryukoku.ac.jp"
+    },
+    "author": null,
+    "title": "Ivanti Connect Secure\u24a2\u8b58\u044dCVE-2025-22457\u941a\u226a\u7d75\u5100 (JPCERT/CC, 2025.04.04)",
+    "description": "Ivanti Connect Secure / Pulse Connect Secure / Policy Secure / ZTA Gateways\nRCE 0-day \u7f68CVE-2025-22457\n\r\n\n<ul> <li>Ivanti Connect Secure: 22.7R2.5 \u7bc1\u30e5\u8972\u5e2522.7R2.6 \u0443\u7dbd(2025.02 ) <li>Pulse Connect Secure: 9.1R18.9 \u7bc1\u30e5\u8972\u5e25\u6ce3\u82e5\u7bcb\u4fe1\u7f69\uff47\u24a2 Ivanti Connect Secure \u543e\u8171\u80a2\u8340 <li>Ivanti Po\u2026",
+    "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2025/04.html#20250404_ivanti",
+    "urlToImage": null,
+    "publishedAt": "2025-04-03T15:00:00Z",
+    "content": "Last modified: Fri Apr 4 14:56:05 2025\r\n +0900 (JST)\r\nSecurity Watch \r\nSecurity Watch \r\n UNIXWindowsMac OS (priority ) \r\n1 \r\n 1 \r\n[ ]\r\n:\r\n2024 |\r\n2023 |\r\n2022 |\r\n2021 |\r\n2020 |\r\n2019 |\r\n2018 |\r\n2017 \u2026 [+16210 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Ryukoku.ac.jp"
+    },
+    "author": null,
+    "title": "(CNN, 4/3) Philippine - F-16 Aircra ...",
+    "description": "(CNN, 4/3) Philippine - F-16 Aircraft (DSCA, 4/1) The Government of the Philippines has requested to buy sixteen (16) F-16 C Block 70/72 aircraft; four (4) F-16 D Block 70/72 aircraft; F-16 C /D Block 70/72 F-16V \u0441\u33cd : 50\u7d9b\u96c1\uff43\uff12F-16\u7f69\u7feb\u969c\u969c\u9ad8!? (\u7b99\u82e5\u30b1, 2024.02.24)",
+    "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2025/04.html#20250404__f16",
+    "urlToImage": null,
+    "publishedAt": "2025-04-03T15:00:00Z",
+    "content": "Last modified: Fri Apr 4 20:29:22 2025\r\n +0900 (JST)\r\nSecurity Watch \r\nSecurity Watch \r\n UNIXWindowsMac OS (priority ) \r\n1 \r\n 1 \r\n[ ]\r\n:\r\n2024 |\r\n2023 |\r\n2022 |\r\n2021 |\r\n2020 |\r\n2019 |\r\n2018 |\r\n2017 \u2026 [+16751 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Ryukoku.ac.jp"
+    },
+    "author": null,
+    "title": "(Business Insider, 3/26)\u9d3b: Can You ...",
+    "description": "(Business Insider, 3/26)\u9d3b: Can You Fool A Self Driving Car? (Mark Rober / YouTube, 3/16) (\u216b9 \u6f5f\u30c3)",
+    "url": "http://www.st.ryukoku.ac.jp/~kjm/security/memo/2025/04.html#20250404__tesla",
+    "urlToImage": null,
+    "publishedAt": "2025-04-03T15:00:00Z",
+    "content": "Last modified: Fri Apr 4 17:22:56 2025\r\n +0900 (JST)\r\nSecurity Watch \r\nSecurity Watch \r\n UNIXWindowsMac OS (priority ) \r\n1 \r\n 1 \r\n[ ]\r\n:\r\n2024 |\r\n2023 |\r\n2022 |\r\n2021 |\r\n2020 |\r\n2019 |\r\n2018 |\r\n2017 \u2026 [+16356 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Securityaffairs.com"
+    },
+    "author": "Pierluigi Paganini",
+    "title": "Europol-led operation shuts down CSAM platform Kidflix, leading to 79 arrests",
+    "description": "An international law enforcement operation shuts down Kidflix, a child sexual abuse material (CSAM) streaming platform with 1.8M users. An international operation, codenamed Operation Stream, against child sexual exploitation shuts down one of the largest str\u2026",
+    "url": "https://securityaffairs.com/176154/cyber-crime/europol-led-op-shuts-down-csam-platform-kidflix.html",
+    "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/04/image-4.png",
+    "publishedAt": "2025-04-03T14:22:23Z",
+    "content": "Europol-led operation shuts down CSAM platform Kidflix, leading to 79 arrests\r\n\u00a0|\u00a0New Triada Trojan comes preinstalled on Android devices\r\n\u00a0|\u00a0New advanced FIN7's Anubis backdoor allows to gain full s\u2026 [+152753 chars]"
+  }
+]

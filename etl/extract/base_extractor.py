@@ -28,8 +28,8 @@ class Extractor(ABC):
                     ts = f.read().strip()
                     return datetime.fromisoformat(ts)
         except Exception as e:
-            logger.error(f"Failed to load state: {e}, returning 10 days ago")
-        return datetime.now(timezone.utc) - timedelta(days=10)
+            logger.error(f"Failed to load state: {e}, returning 1000 days ago")
+        return datetime.now(timezone.utc) - timedelta(days=1000,)
 
     def save_state(self, timestamp: datetime):
         try:

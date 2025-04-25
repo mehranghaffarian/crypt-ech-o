@@ -2,8 +2,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import matplotlib.pyplot as plt
+from utils.logging import setup_logger
 from sqlalchemy import create_engine, text
 from utils.config import DB_URL, NEWS_CANDIDATE_LABELS
+
+logger = setup_logger(__name__)
 
 # 1. Page configuration
 st.set_page_config(
@@ -103,14 +106,14 @@ fig_scatter = px.scatter(
 st.plotly_chart(fig_scatter, use_container_width=True)
 
 ## 4.2 Bucketed Summary Bar Chart
-st.subheader("Average Price Change by Sentiment Bucket")
-bc = bucket_df
-fig, ax = plt.subplots()
-ax.bar(bc['bucket'], bc['avg_change'], yerr=bc['std_change'], capsize=5)
-ax.set_xlabel('Sentiment Bucket')
-ax.set_ylabel('Average Price Change (%)')
-ax.set_title('Avg Δ% by Sentiment Bucket')
-st.pyplot(fig)
+# st.subheader("Average Price Change by Sentiment Bucket")
+# bc = bucket_df
+# fig, ax = plt.subplots()
+# ax.bar(bc['bucket'], bc['avg_change'], yerr=bc['std_change'], capsize=5)
+# ax.set_xlabel('Sentiment Bucket')
+# ax.set_ylabel('Average Price Change (%)')
+# ax.set_title('Avg Δ% by Sentiment Bucket')
+# st.pyplot(fig)
 
 ## 4.3 Relevance Labels vs Price change
 
@@ -139,6 +142,13 @@ fig_time = px.scatter(
     title='Price Change vs. Published Date'
 )
 st.plotly_chart(fig_time, use_container_width=True)
+
+label_counts = df_impacts['relevance_label'].value_counts()
+# Format and log
+count_line = "Relevance label counts — " + ", ".join(
+    f"{label}: {count}" for label, count in label_counts.items()
+)
+st.write(count_line)
 
 st.markdown("---")
 st.write("Built with **Streamlit**, **Plotly**, and **SQLAlchemy**. Use sidebar filters to explore how news sentiment and relevance correlate with market movements.")

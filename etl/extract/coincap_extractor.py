@@ -27,7 +27,7 @@ class CoinCapExtractor(Extractor):
         try:
             resp = requests.get(
                 f"{self.BASE_URL}/{self.query}/history",
-                params={"interval": "h2", "start": start, "end": end},
+                params={"interval": "h6", "start": start, "end": end},
                 headers={"Authorization": f"Bearer {COINCAP_API_KEY}"}
             )
             logger.info(f"CoinCap returned status {resp.status_code}")

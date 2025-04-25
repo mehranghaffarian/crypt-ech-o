@@ -18,8 +18,8 @@ def correlate_by_label():
             AND h.delta_pct IS NOT NULL
         """)
         df = pd.read_sql(sql, engine, params={"label": label})
-        if df.empty:
-            logger.info(f"No data for label {label}")
+        if len(df) < 2:
+            logger.info(f"No enough data for label {label}, data len: {len(df)}")
             continue
         pr, pp = pearsonr(df['sentiment'], df['price_change'])
         sr, sp = spearmanr(df['sentiment'], df['price_change'])

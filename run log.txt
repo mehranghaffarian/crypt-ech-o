@@ -1,0 +1,333 @@
+PS D:\semesters\Project\crypt(ech)o> python main.py
+[2025-04-25 16:26:28,042] INFO - Starting Crypt(Ech)o project...
+[2025-04-25 16:26:28,043] INFO - Initializing DB:
+[2025-04-25 16:26:28,043] INFO - Initializing database schema…
+[2025-04-25 16:26:28,090] INFO - Database schema ready.
+[2025-04-25 16:26:28,090] INFO - Running ETL:
+[2025-04-25 16:26:28,091] INFO - Fetching crypto regulation data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:27:05,522] INFO - newsAPI returned status 200
+[2025-04-25 16:27:05,523] INFO - Received 99 data points
+[2025-04-25 16:27:05,528] INFO - Wrote raw data to data/raw/news/crypto regulation\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:27:05,529] INFO - Fetching crypto legislation data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:04,202] INFO - newsAPI returned status 200
+[2025-04-25 16:28:04,203] INFO - Received 99 data points
+[2025-04-25 16:28:04,298] INFO - Wrote raw data to data/raw/news/crypto legislation\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:04,299] INFO - Fetching bitcoin ban data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:07,717] INFO - newsAPI returned status 200
+[2025-04-25 16:28:07,718] INFO - Received 100 data points
+[2025-04-25 16:28:07,730] INFO - Wrote raw data to data/raw/news/bitcoin ban\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:07,731] INFO - Fetching SEC crypto enforcement data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:21,261] INFO - newsAPI returned status 200
+[2025-04-25 16:28:21,262] INFO - Received 100 data points
+[2025-04-25 16:28:21,360] INFO - Wrote raw data to data/raw/news/SEC crypto enforcement\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:21,362] INFO - Fetching crypto tax policy data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:23,622] INFO - newsAPI returned status 200
+[2025-04-25 16:28:23,623] INFO - Received 100 data points
+[2025-04-25 16:28:23,728] INFO - Wrote raw data to data/raw/news/crypto tax policy\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:23,730] INFO - Fetching CBDC launch data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:25,093] INFO - newsAPI returned status 200
+[2025-04-25 16:28:25,093] INFO - Received 18 data points
+[2025-04-25 16:28:25,095] INFO - Wrote raw data to data/raw/news/CBDC launch\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:25,096] INFO - Fetching BlackRock bitcoin ETF data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:27,883] INFO - newsAPI returned status 200
+[2025-04-25 16:28:27,884] INFO - Received 96 data points
+[2025-04-25 16:28:27,888] INFO - Wrote raw data to data/raw/news/BlackRock bitcoin ETF\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:27,890] INFO - Fetching institutional crypto adoption data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:32,439] INFO - newsAPI returned status 200
+[2025-04-25 16:28:32,440] INFO - Received 100 data points
+[2025-04-25 16:28:32,481] INFO - Wrote raw data to data/raw/news/institutional crypto adoption\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:32,483] INFO - Fetching crypto investment bank data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:39,881] INFO - newsAPI returned status 200
+[2025-04-25 16:28:39,882] INFO - Received 100 data points
+[2025-04-25 16:28:39,991] INFO - Wrote raw data to data/raw/news/crypto investment bank\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:39,993] INFO - Fetching bitcoin holdings data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:45,166] INFO - newsAPI returned status 200
+[2025-04-25 16:28:45,167] INFO - Received 100 data points
+[2025-04-25 16:28:45,269] INFO - Wrote raw data to data/raw/news/bitcoin holdings\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:45,270] INFO - Fetching Tesla data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:50,671] ERROR - Error fetching from CoinCap: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-04-25 16:28:50,672] INFO - Fetching Trump data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:52,017] INFO - newsAPI returned status 200
+[2025-04-25 16:28:52,018] INFO - Received 87 data points
+[2025-04-25 16:28:52,023] INFO - Wrote raw data to data/raw/news/Trump\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:52,024] INFO - Fetching Musk data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:52,801] INFO - newsAPI returned status 200
+[2025-04-25 16:28:52,802] INFO - Received 99 data points
+[2025-04-25 16:28:52,806] INFO - Wrote raw data to data/raw/news/Musk\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:52,807] INFO - Fetching MicroStrategy data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:53,855] INFO - newsAPI returned status 200
+[2025-04-25 16:28:53,856] INFO - Received 99 data points
+[2025-04-25 16:28:53,861] INFO - Wrote raw data to data/raw/news/MicroStrategy\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:53,863] INFO - Fetching Fed interest rate crypto data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:55,144] INFO - newsAPI returned status 200
+[2025-04-25 16:28:55,145] INFO - Received 96 data points
+[2025-04-25 16:28:55,149] INFO - Wrote raw data to data/raw/news/Fed interest rate crypto\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:55,150] INFO - Fetching inflation bitcoin data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:28:56,463] INFO - newsAPI returned status 200
+[2025-04-25 16:28:56,464] INFO - Received 98 data points
+[2025-04-25 16:28:56,469] INFO - Wrote raw data to data/raw/news/inflation bitcoin\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:28:56,470] INFO - Fetching dollar strength crypto data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:29:06,293] INFO - newsAPI returned status 200
+[2025-04-25 16:29:06,295] INFO - Received 97 data points
+[2025-04-25 16:29:06,299] INFO - Wrote raw data to data/raw/news/dollar strength crypto\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:29:06,301] INFO - Fetching crypto safe haven data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:29:41,124] INFO - newsAPI returned status 200
+[2025-04-25 16:29:41,125] INFO - Received 100 data points
+[2025-04-25 16:29:41,129] INFO - Wrote raw data to data/raw/news/crypto safe haven\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:29:41,131] INFO - Fetching crypto payment integration data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:30:18,609] INFO - newsAPI returned status 200
+[2025-04-25 16:30:18,610] INFO - Received 100 data points
+[2025-04-25 16:30:18,615] INFO - Wrote raw data to data/raw/news/crypto payment integration\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:30:18,616] INFO - Fetching bitcoin accepted data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:30:54,576] INFO - newsAPI returned status 200
+[2025-04-25 16:30:54,577] INFO - Received 77 data points
+[2025-04-25 16:30:54,582] INFO - Wrote raw data to data/raw/news/bitcoin accepted\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:30:54,584] INFO - Fetching NFT marketplace data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:30:58,597] INFO - newsAPI returned status 200
+[2025-04-25 16:30:58,598] INFO - Received 100 data points
+[2025-04-25 16:30:58,603] INFO - Wrote raw data to data/raw/news/NFT marketplace\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:30:58,605] INFO - Fetching layer 2 scaling ethereum data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:01,003] INFO - newsAPI returned status 200
+[2025-04-25 16:31:01,004] INFO - Received 91 data points
+[2025-04-25 16:31:01,008] INFO - Wrote raw data to data/raw/news/layer 2 scaling ethereum\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:01,010] INFO - Fetching bitcoin lightning network data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:02,537] INFO - newsAPI returned status 200
+[2025-04-25 16:31:02,537] INFO - Received 46 data points
+[2025-04-25 16:31:02,541] INFO - Wrote raw data to data/raw/news/bitcoin lightning network\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:02,542] INFO - Fetching bitcoin crashing data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:03,724] INFO - newsAPI returned status 200
+[2025-04-25 16:31:03,725] INFO - Received 99 data points
+[2025-04-25 16:31:03,730] INFO - Wrote raw data to data/raw/news/bitcoin crashing\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:03,731] INFO - Fetching altcoin surge data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:05,139] INFO - newsAPI returned status 200
+[2025-04-25 16:31:05,140] INFO - Received 100 data points
+[2025-04-25 16:31:05,144] INFO - Wrote raw data to data/raw/news/altcoin surge\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:05,146] INFO - Fetching crypto market panic data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:12,168] INFO - newsAPI returned status 200
+[2025-04-25 16:31:12,169] INFO - Received 99 data points
+[2025-04-25 16:31:12,174] INFO - Wrote raw data to data/raw/news/crypto market panic\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:12,176] INFO - Fetching whale buying bitcoin data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:13,892] INFO - newsAPI returned status 200
+[2025-04-25 16:31:13,893] INFO - Received 78 data points
+[2025-04-25 16:31:13,897] INFO - Wrote raw data to data/raw/news/whale buying bitcoin\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:13,898] INFO - Fetching Ethereum to the moon data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:14,657] INFO - newsAPI returned status 200
+[2025-04-25 16:31:14,657] INFO - Received 14 data points
+[2025-04-25 16:31:14,660] INFO - Wrote raw data to data/raw/news/Ethereum to the moon\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:14,661] INFO - Fetching quantum computing data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:15,847] INFO - newsAPI returned status 200
+[2025-04-25 16:31:15,848] INFO - Received 100 data points
+[2025-04-25 16:31:15,853] INFO - Wrote raw data to data/raw/news/quantum computing\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:15,854] INFO - Fetching natural disaster data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:17,351] INFO - newsAPI returned status 200
+[2025-04-25 16:31:17,352] INFO - Received 95 data points
+[2025-04-25 16:31:17,473] INFO - Wrote raw data to data/raw/news/natural disaster\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:17,474] INFO - Fetching energy grid blackout data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:19,690] INFO - newsAPI returned status 200
+[2025-04-25 16:31:19,691] INFO - Received 63 data points
+[2025-04-25 16:31:19,694] INFO - Wrote raw data to data/raw/news/energy grid blackout\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:19,695] INFO - Fetching major wildfire spreads data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:20,649] INFO - newsAPI returned status 200
+[2025-04-25 16:31:20,650] INFO - Received 5 data points
+[2025-04-25 16:31:20,651] INFO - Wrote raw data to data/raw/news/major wildfire spreads\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:20,652] INFO - Fetching amazon layoffs data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:21,603] INFO - newsAPI returned status 200
+[2025-04-25 16:31:21,604] INFO - Received 96 data points
+[2025-04-25 16:31:21,609] INFO - Wrote raw data to data/raw/news/amazon layoffs\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:21,611] INFO - Fetching black friday record data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:23,318] INFO - newsAPI returned status 200
+[2025-04-25 16:31:23,319] INFO - Received 92 data points
+[2025-04-25 16:31:23,323] INFO - Wrote raw data to data/raw/news/black friday record\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:23,324] INFO - Fetching new virus outbreak data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:24,405] INFO - newsAPI returned status 200
+[2025-04-25 16:31:24,406] INFO - Received 93 data points
+[2025-04-25 16:31:24,411] INFO - Wrote raw data to data/raw/news/new virus outbreak\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:24,412] INFO - Fetching drug approval stock surge data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:26,143] INFO - newsAPI returned status 200
+[2025-04-25 16:31:26,143] INFO - Received 14 data points
+[2025-04-25 16:31:26,145] INFO - Wrote raw data to data/raw/news/drug approval stock surge\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:26,147] INFO - Fetching celebrity scandal data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:28,357] INFO - newsAPI returned status 200
+[2025-04-25 16:31:28,358] INFO - Received 89 data points
+[2025-04-25 16:31:28,363] INFO - Wrote raw data to data/raw/news/celebrity scandal\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:28,365] INFO - Fetching Kanye West data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:29,451] INFO - newsAPI returned status 200
+[2025-04-25 16:31:29,451] INFO - Received 94 data points
+[2025-04-25 16:31:29,553] INFO - Wrote raw data to data/raw/news/Kanye West\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:29,554] INFO - Fetching Russia sanctions data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:31,150] INFO - newsAPI returned status 200
+[2025-04-25 16:31:31,151] INFO - Received 99 data points
+[2025-04-25 16:31:31,155] INFO - Wrote raw data to data/raw/news/Russia sanctions\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:31,156] INFO - Fetching How to cook data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:31:56,044] INFO - newsAPI returned status 200
+[2025-04-25 16:31:56,045] INFO - Received 94 data points
+[2025-04-25 16:31:56,067] INFO - Wrote raw data to data/raw/news/How to cook\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:31:56,068] INFO - Fetching onion data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:13,833] INFO - newsAPI returned status 200
+[2025-04-25 16:32:13,834] INFO - Received 96 data points
+[2025-04-25 16:32:13,867] INFO - Wrote raw data to data/raw/news/onion\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:32:13,868] INFO - Fetching orage data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:14,821] INFO - newsAPI returned status 200
+[2025-04-25 16:32:14,822] INFO - Received 0 data points
+[2025-04-25 16:32:14,824] INFO - Fetching dark web leak data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:25,127] INFO - newsAPI returned status 200
+[2025-04-25 16:32:25,129] INFO - Received 100 data points
+[2025-04-25 16:32:25,134] INFO - Wrote raw data to data/raw/news/dark web leak\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:32:25,152] INFO - Fetching Jerome Powell data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:26,622] INFO - newsAPI returned status 200
+[2025-04-25 16:32:26,623] INFO - Received 96 data points
+[2025-04-25 16:32:26,627] INFO - Wrote raw data to data/raw/news/Jerome Powell\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:32:26,707] INFO - Fetching Christine Lagarde data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:31,311] ERROR - Error fetching from CoinCap: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[2025-04-25 16:32:31,312] INFO - Fetching Andrew Bailey data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:38,949] INFO - newsAPI returned status 200
+[2025-04-25 16:32:38,951] INFO - Received 95 data points
+[2025-04-25 16:32:38,956] INFO - Wrote raw data to data/raw/news/Andrew Bailey\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:32:39,064] INFO - Fetching bitcoin data from 2025-03-25T00:00:00+00:00 to 2025-04-22T00:00:00+00:00
+[2025-04-25 16:32:45,782] INFO - CoinCap returned status 200
+[2025-04-25 16:32:45,783] INFO - Received 113 data points
+[2025-04-25 16:32:45,785] INFO - Wrote raw data to data/raw/market/bitcoin\market_2025-03-25_to_2025-04-22.json
+[2025-04-25 16:32:45,787] DEBUG - State file updated to 2025-04-22T00:00:00+00:00
+Device set to use cpu
+C:\Users\LENOVO\AppData\Local\Programs\Python\Python312\Lib\site-packages\transformers\pipelines\text_classification.py:106: UserWarning: `return_all_scores` is now deprecated,  if want a similar functionality use `top_k=None` instead of `return_all_scores=True` or `top_k=1` instead of `return_all_scores=False`.
+  warnings.warn(
+Device set to use cpu
+[2025-04-25 16:33:34,025] INFO - Transforming news file: data\raw\news\altcoin surge\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:35:11,430] INFO - Inserted 99 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:35:11,431] INFO - Transforming news file: data\raw\news\amazon layoffs\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:36:40,982] INFO - Inserted 96 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:36:40,983] INFO - Transforming news file: data\raw\news\Andrew Bailey\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:38:13,221] INFO - Inserted 95 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:38:13,222] INFO - Transforming news file: data\raw\news\bitcoin accepted\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:39:33,205] INFO - Inserted 77 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:39:33,205] INFO - Transforming news file: data\raw\news\bitcoin ban\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:41:09,263] INFO - Inserted 99 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:41:09,264] INFO - Transforming news file: data\raw\news\bitcoin crashing\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:42:26,535] INFO - Inserted 97 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:42:26,536] INFO - Transforming news file: data\raw\news\bitcoin holdings\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:44:15,992] INFO - Inserted 94 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:44:15,993] INFO - Transforming news file: data\raw\news\bitcoin lightning network\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:45:03,209] INFO - Inserted 41 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:45:03,210] INFO - Transforming news file: data\raw\news\black friday record\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:46:46,042] INFO - Inserted 92 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:46:46,043] INFO - Transforming news file: data\raw\news\BlackRock bitcoin ETF\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:48:26,702] INFO - Inserted 93 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:48:26,703] INFO - Transforming news file: data\raw\news\CBDC launch\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:48:45,606] INFO - Inserted 16 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:48:45,607] INFO - Transforming news file: data\raw\news\celebrity scandal\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:50:21,392] INFO - Inserted 84 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:50:21,392] INFO - Transforming news file: data\raw\news\crypto investment bank\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:52:09,564] INFO - Inserted 82 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:52:09,564] INFO - Transforming news file: data\raw\news\crypto legislation\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:53:48,732] INFO - Inserted 86 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:53:48,733] INFO - Transforming news file: data\raw\news\crypto market panic\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:55:33,282] INFO - Inserted 82 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:55:33,283] INFO - Transforming news file: data\raw\news\crypto payment integration\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:57:17,869] INFO - Inserted 84 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:57:17,870] INFO - Transforming news file: data\raw\news\crypto regulation\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:59:01,876] INFO - Inserted 61 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 16:59:01,877] INFO - Transforming news file: data\raw\news\crypto safe haven\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:00:42,891] INFO - Inserted 70 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:00:42,891] INFO - Transforming news file: data\raw\news\crypto tax policy\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:02:16,949] INFO - Inserted 68 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:02:16,950] INFO - Transforming news file: data\raw\news\dark web leak\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:04:04,633] INFO - Inserted 52 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:04:04,634] INFO - Transforming news file: data\raw\news\dollar strength crypto\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:05:51,699] INFO - Inserted 67 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:05:51,700] INFO - Transforming news file: data\raw\news\drug approval stock surge\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:06:08,552] INFO - Inserted 12 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:06:08,552] INFO - Transforming news file: data\raw\news\energy grid blackout\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:07:06,656] INFO - Inserted 62 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:07:06,657] INFO - Transforming news file: data\raw\news\Ethereum to the moon\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:07:22,700] INFO - Inserted 11 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:07:22,700] INFO - Transforming news file: data\raw\news\Fed interest rate crypto\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:08:59,402] INFO - Inserted 63 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:08:59,402] INFO - Transforming news file: data\raw\news\How to cook\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:10:31,065] INFO - Inserted 94 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:10:31,065] INFO - Transforming news file: data\raw\news\inflation bitcoin\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:12:05,312] INFO - Inserted 52 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:12:05,313] INFO - Transforming news file: data\raw\news\institutional crypto adoption\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:13:48,553] INFO - Inserted 57 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:13:48,553] INFO - Transforming news file: data\raw\news\Jerome Powell\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:15:17,545] INFO - Inserted 87 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:15:17,545] INFO - Transforming news file: data\raw\news\Kanye West\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:16:51,974] INFO - Inserted 92 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:16:51,975] INFO - Transforming news file: data\raw\news\layer 2 scaling ethereum\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:18:28,274] INFO - Inserted 80 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:18:28,275] INFO - Transforming news file: data\raw\news\major wildfire spreads\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:18:33,494] INFO - Inserted 5 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:18:33,495] INFO - Transforming news file: data\raw\news\MicroStrategy\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:20:13,408] INFO - Inserted 73 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:20:13,409] INFO - Transforming news file: data\raw\news\Musk\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:21:35,600] INFO - Inserted 78 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:21:35,601] INFO - Transforming news file: data\raw\news\natural disaster\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:23:07,942] INFO - Inserted 91 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:23:07,942] INFO - Transforming news file: data\raw\news\new virus outbreak\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:24:33,304] INFO - Inserted 92 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:24:33,305] INFO - Transforming news file: data\raw\news\NFT marketplace\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:26:18,047] INFO - Inserted 90 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:26:18,048] INFO - Transforming news file: data\raw\news\onion\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:27:53,282] INFO - Inserted 85 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:27:53,283] INFO - Transforming news file: data\raw\news\quantum computing\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:29:39,883] INFO - Inserted 90 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:29:39,884] INFO - Transforming news file: data\raw\news\Russia sanctions\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:31:14,145] INFO - Inserted 91 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:31:14,145] INFO - Transforming news file: data\raw\news\SEC crypto enforcement\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:32:52,352] INFO - Inserted 29 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:32:52,353] INFO - Transforming news file: data\raw\news\Trump\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:34:12,038] INFO - Inserted 65 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:34:12,039] INFO - Transforming news file: data\raw\news\whale buying bitcoin\news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:35:26,993] INFO - Inserted 63 rows from news__2025-03-25_to_2025-04-22.json
+[2025-04-25 17:35:27,067] INFO - Transforming market file: data\raw\market\bitcoin\market_2025-03-25_to_2025-04-22.json
+[2025-04-25 17:35:27,210] INFO - Inserted 113 rows from market_2025-03-25_to_2025-04-22.json
+[2025-04-25 17:35:27,210] INFO - All transform & load steps complete.
+[2025-04-25 17:35:27,210] INFO - Calculating news impacts:
+[2025-04-25 17:35:34,452] INFO - Analyzing data:
+[2025-04-25 17:35:34,453] INFO - Caluclating correlate_by_label:
+[2025-04-25 17:35:34,518] INFO - [cryptocurrency] Pearson r = -0.0413 (p=0.206), Spearman ρ = -0.0488 (p=0.136)
+[2025-04-25 17:35:34,526] INFO - [stock market] Pearson r = -0.0205 (p=0.801), Spearman ρ = -0.0253 (p=0.756)
+[2025-04-25 17:35:34,534] INFO - [politics] Pearson r = -0.0489 (p=0.494), Spearman ρ = -0.1038 (p=0.145)
+[2025-04-25 17:35:34,542] INFO - [technology] Pearson r = -0.0045 (p=0.921), Spearman ρ = -0.0170 (p=0.707)
+[2025-04-25 17:35:34,550] INFO - [entertainment] Pearson r = -0.0770 (p=0.215), Spearman ρ = -0.1265 (p=0.0412)
+[2025-04-25 17:35:34,557] INFO - [general] Pearson r = -0.0431 (p=0.42), Spearman ρ = 0.0582 (p=0.276)
+[2025-04-25 17:35:34,558] INFO - Calculating correlate_sentiment_price:
+[2025-04-25 17:35:34,594] INFO - Pearson = -0.0368 (p=0.072)
+[2025-04-25 17:35:34,594] INFO - Spearman = -0.0417 (p=0.0411)
+[2025-04-25 17:35:34,604] INFO - Saved joined data to data/analytics/sentiment_vs_price.csv
+[2025-04-25 17:35:34,604] INFO - Finding outliers_by_relevance:
+[2025-04-25 17:35:34,651] INFO - Top positive movers for cryptocurrency saved to data/analytics/cryptocurrency_top_positive.csv
+[2025-04-25 17:35:34,656] INFO - Top negative movers for cryptocurrency saved to data/analytics/cryptocurrency_top_negative.csv
+[2025-04-25 17:35:34,662] INFO - Top positive movers for stock market saved to data/analytics/stock market_top_positive.csv
+[2025-04-25 17:35:34,668] INFO - Top negative movers for stock market saved to data/analytics/stock market_top_negative.csv
+[2025-04-25 17:35:34,673] INFO - Top positive movers for politics saved to data/analytics/politics_top_positive.csv
+[2025-04-25 17:35:34,679] INFO - Top negative movers for politics saved to data/analytics/politics_top_negative.csv
+[2025-04-25 17:35:34,685] INFO - Top positive movers for technology saved to data/analytics/technology_top_positive.csv
+[2025-04-25 17:35:34,691] INFO - Top negative movers for technology saved to data/analytics/technology_top_negative.csv
+[2025-04-25 17:35:34,697] INFO - Top positive movers for entertainment saved to data/analytics/entertainment_top_positive.csv
+[2025-04-25 17:35:34,704] INFO - Top negative movers for entertainment saved to data/analytics/entertainment_top_negative.csv
+[2025-04-25 17:35:34,710] INFO - Top positive movers for general saved to data/analytics/general_top_positive.csv
+[2025-04-25 17:35:34,717] INFO - Top negative movers for general saved to data/analytics/general_top_negative.csv
+[2025-04-25 17:35:34,717] INFO - Generating sentiment_plot:
+Interactive plot saved to data/analytics/interactive_sentiment.html
+[2025-04-25 17:35:36,837] INFO - bucket_and_summarize:
+D:\semesters\Project\crypt(ech)o\analytics\sentiment_buckets_analysis.py:30: FutureWarning:
+
+The default of observed=False is deprecated and will be changed to True in a future version of pandas. Pass observed=False to retain current behavior or observed=True to adopt the future default and silence this warning.
+
+[2025-04-25 17:35:36,901] INFO - Sentiment Bucket Summary:
+[2025-04-25 17:35:36,905] INFO -   bucket  count  avg_change  std_change  min_change  max_change
+ neutral    399    0.235435    1.646493     -4.6941      7.3923
+positive   1996    0.139000    1.415203     -4.6941      7.3923
+[2025-04-25 17:35:36,906] INFO - Saved bucket summary to data/analytics/sentiment_bucket_summary.csv
+Saved bucket bar chart to data/analytics/bucket_bar_chart.png
+[2025-04-25 17:35:37,078] INFO - validate_impacts:
+[2025-04-25 17:35:37,117] INFO - Summary of Headline Impacts:
+[2025-04-25 17:35:37,117] INFO - COIN       #IMPACTS   AVG_DELTA%   AVG_VOL%
+[2025-04-25 17:35:37,118] INFO - bitcoin        2395       0.1551    -0.0005
+PS D:\semesters\Project\crypt(ech)o> streamlit run crypto_dashboard.py
+>>
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.35.116:8501
